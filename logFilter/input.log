@@ -1,0 +1,398 @@
+[2026-07-04T13:30:00.001Z] [INFO] [tr_8a7b2c9d0e1f4a] [api-router] Incoming POST request /v1/charges from IP 192.168.1.42
+[2026-07-04T13:30:00.012Z] [INFO] [tr_8a7b2c9d0e1f4a] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:30:00.025Z] [INFO] [tr_8a7b2c9d0e1f4a] [token-service] Card tokenization successful for vault_id: vlt_5521ae
+[2026-07-04T13:30:00.038Z] [INFO] [tr_8a7b2c9d0e1f4a] [risk-engine] Fraud score calculated: 12. Risk level: LOW
+[2026-07-04T13:30:00.051Z] [INFO] [tr_8a7b2c9d0e1f4a] [ledger-db] Acquired DB connection from pool. Active connections: 42/100
+[2026-07-04T13:30:00.089Z] [INFO] [tr_8a7b2c9d0e1f4a] [acquirer-router] Routing transaction tx_332149 to processor: HDFC_RAILS_1
+[2026-07-04T13:30:00.312Z] [INFO] [tr_8a7b2c9d0e1f4a] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth99218
+[2026-07-04T13:30:00.324Z] [INFO] [tr_8a7b2c9d0e1f4a] [ledger-db] Transaction tx_332149 updated status to SUCCESS in 12ms
+[2026-07-04T13:30:00.330Z] [INFO] [tr_8a7b2c9d0e1f4a] [webhook-dispatcher] Enqueued webhook event evt_charge_succeeded for merchant merch_live_99f82
+[2026-07-04T13:30:00.335Z] [INFO] [tr_8a7b2c9d0e1f4a] [api-router] Response 200 OK sent in 334ms
+[2026-07-04T13:30:02.104Z] [INFO] [tr_1c2d3e4f5a6b7c] [api-router] Incoming POST request /v1/charges from IP 203.0.113.88
+[2026-07-04T13:30:02.115Z] [INFO] [tr_1c2d3e4f5a6b7c] [auth-validator] API Key verified for merchant: merch_live_a12b3
+[2026-07-04T13:30:02.155Z] [WARN] [tr_1c2d3e4f5a6b7c] [token-service] Card expiration date is in the current month. Proceeding with caution.
+[2026-07-04T13:30:02.190Z] [INFO] [tr_1c2d3e4f5a6b7c] [risk-engine] Fraud score calculated: 45. Risk level: MEDIUM
+[2026-07-04T13:30:02.210Z] [INFO] [tr_1c2d3e4f5a6b7c] [acquirer-router] 3D-Secure authentication required for tx_332150. Redirecting user.
+[2026-07-04T13:30:02.222Z] [INFO] [tr_1c2d3e4f5a6b7c] [api-router] Response 202 Accepted sent in 118ms
+[2026-07-04T13:30:05.412Z] [INFO] [tr_9f8e7d6c5b4a3b] [api-router] Incoming POST request /v1/refunds from IP 198.51.100.12
+[2026-07-04T13:30:05.422Z] [INFO] [tr_9f8e7d6c5b4a3b] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:30:05.445Z] [INFO] [tr_9f8e7d6c5b4a3b] [ledger-db] Fetching original transaction tx_332110 for partial refund.
+[2026-07-04T13:30:05.612Z] [ERROR] [tr_9f8e7d6c5b4a3b] [acquirer-client] Upstream refund failed. Reason: REFUND_AMOUNT_EXCEEDS_ORIGINAL_CHARGE
+[2026-07-04T13:30:05.620Z] [INFO] [tr_9f8e7d6c5b4a3b] [ledger-db] Logged failed refund attempt ref_002911 to audit log
+[2026-07-04T13:30:05.625Z] [INFO] [tr_9f8e7d6c5b4a3b] [api-router] Response 422 Unprocessable Entity sent in 213ms
+[2026-07-04T13:30:08.881Z] [INFO] [tr_4e5f6a7b8c9d0e] [api-router] Incoming POST request /v1/tokens from IP 103.241.12.5
+[2026-07-04T13:30:08.922Z] [ERROR] [tr_4e5f6a7b8c9d0e] [token-service] Failed to decrypt payload. Corrupted payload or invalid initialization vector (IV)
+[2026-07-04T13:30:08.926Z] [INFO] [tr_4e5f6a7b8c9d0e] [api-router] Response 400 Bad Request sent in 45ms
+[2026-07-04T13:30:12.002Z] [INFO] [tr_7a6b5c4d3e2f1a] [api-router] Incoming POST request /v1/charges from IP 192.168.1.103
+[2026-07-04T13:30:12.010Z] [INFO] [tr_7a6b5c4d3e2f1a] [auth-validator] API Key verified for merchant: merch_live_f4711
+[2026-07-04T13:30:12.045Z] [INFO] [tr_7a6b5c4d3e2f1a] [token-service] Card tokenization successful for vault_id: vlt_9932ba
+[2026-07-04T13:30:12.060Z] [INFO] [tr_7a6b5c4d3e2f1a] [risk-engine] Fraud score calculated: 3. Risk level: LOW
+[2026-07-04T13:30:12.072Z] [INFO] [tr_7a6b5c4d3e2f1a] [acquirer-router] Routing transaction tx_332151 to processor: ICICI_RAILS_2
+[2026-07-04T13:30:15.073Z] [WARN] [tr_7a6b5c4d3e2f1a] [acquirer-client] Upstream response slow. Elapsed time: 3001ms. Retrying with idempotent key...
+[2026-07-04T13:30:17.210Z] [INFO] [tr_7a6b5c4d3e2f1a] [acquirer-client] Retry successful. Upstream provider accepted charge on channel 2.
+[2026-07-04T13:30:17.222Z] [INFO] [tr_7a6b5c4d3e2f1a] [ledger-db] Transaction tx_332151 updated status to SUCCESS
+[2026-07-04T13:30:17.230Z] [INFO] [tr_7a6b5c4d3e2f1a] [api-router] Response 200 OK sent in 5228ms
+[2026-07-04T13:30:20.150Z] [INFO] [tr_0b1c2d3e4f5a6b] [api-router] Incoming POST request /v1/charges from IP 45.112.33.19
+[2026-07-04T13:30:20.162Z] [INFO] [tr_0b1c2d3e4f5a6b] [auth-validator] API Key verified for merchant: merch_live_0019a
+[2026-07-04T13:30:20.211Z] [INFO] [tr_0b1c2d3e4f5a6b] [token-service] Card tokenization successful for vault_id: vlt_4410cd
+[2026-07-04T13:30:23.212Z] [ERROR] [tr_0b1c2d3e4f5a6b] [ledger-db] Database connection pool exhausted. Timeout waiting for connection after 3000ms
+[2026-07-04T13:30:23.220Z] [INFO] [tr_0b1c2d3e4f5a6b] [api-router] Response 503 Service Unavailable sent in 3070ms
+[2026-07-04T13:31:01.002Z] [INFO] [tr_2f3e4f5a6b7c8d] [api-router] Incoming POST request /v1/charges from IP 122.160.44.5
+[2026-07-04T13:31:01.015Z] [INFO] [tr_2f3e4f5a6b7c8d] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:31:01.044Z] [INFO] [tr_2f3e4f5a6b7c8d] [token-service] Card tokenization successful for vault_id: vlt_1122cc
+[2026-07-04T13:31:01.060Z] [INFO] [tr_2f3e4f5a6b7c8d] [risk-engine] Fraud score calculated: 8. Risk level: LOW
+[2026-07-04T13:31:01.072Z] [INFO] [tr_2f3e4f5a6b7c8d] [acquirer-router] Routing transaction tx_332152 to processor: SBI_RAILS_1
+[2026-07-04T13:31:01.411Z] [INFO] [tr_2f3e4f5a6b7c8d] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth11029
+[2026-07-04T13:31:01.425Z] [INFO] [tr_2f3e4f5a6b7c8d] [ledger-db] Transaction tx_332152 updated status to SUCCESS
+[2026-07-04T13:31:01.432Z] [INFO] [tr_2f3e4f5a6b7c8d] [api-router] Response 200 OK sent in 430ms
+[2026-07-04T13:31:05.100Z] [INFO] [tr_5b6c7d8e9f0a1b] [api-router] Incoming GET request /v1/charges/tx_332149 from IP 192.168.1.42
+[2026-07-04T13:31:05.120Z] [INFO] [tr_5b6c7d8e9f0a1b] [ledger-db] Cache hit in Redis for key: cache_tx_332149
+[2026-07-04T13:31:05.122Z] [INFO] [tr_5b6c7d8e9f0a1b] [api-router] Response 200 OK sent in 22ms
+[2026-07-04T13:31:10.551Z] [INFO] [tr_6d7e8f9a0b1c2d] [api-router] Incoming POST request /v1/charges from IP 115.240.99.112
+[2026-07-04T13:31:10.560Z] [INFO] [tr_6d7e8f9a0b1c2d] [auth-validator] API Key verified for merchant: merch_live_bb771
+[2026-07-04T13:31:10.595Z] [WARN] [tr_6d7e8f9a0b1c2d] [risk-engine] Velocity limit check: Merchant high volume window threshold reached 85%
+[2026-07-04T13:31:10.612Z] [INFO] [tr_6d7e8f9a0b1c2d] [token-service] Card tokenization successful for vault_id: vlt_8844fe
+[2026-07-04T13:31:10.630Z] [INFO] [tr_6d7e8f9a0b1c2d] [acquirer-router] Routing transaction tx_332153 to processor: HDFC_RAILS_1
+[2026-07-04T13:31:11.120Z] [INFO] [tr_6d7e8f9a0b1c2d] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth00291
+[2026-07-04T13:31:11.140Z] [INFO] [tr_6d7e8f9a0b1c2d] [ledger-db] Transaction tx_332153 updated status to SUCCESS
+[2026-07-04T13:31:11.145Z] [INFO] [tr_6d7e8f9a0b1c2d] [api-router] Response 200 OK sent in 594ms
+[2026-07-04T13:31:22.004Z] [INFO] [tr_3a4b5c6d7e8f9a] [api-router] Incoming POST request /v1/charges from IP 49.207.15.63
+[2026-07-04T13:31:22.012Z] [INFO] [tr_3a4b5c6d7e8f9a] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:31:22.045Z] [INFO] [tr_3a4b5c6d7e8f9a] [token-service] Card tokenization successful for vault_id: vlt_3377aa
+[2026-07-04T13:31:22.062Z] [INFO] [tr_3a4b5c6d7e8f9a] [risk-engine] Fraud score calculated: 95. Risk level: HIGH
+[2026-07-04T13:31:22.068Z] [WARN] [tr_3a4b5c6d7e8f9a] [risk-engine] Transaction tx_332154 flagged as potential fraud risk. Forcing strict 3DS verification.
+[2026-07-04T13:31:22.080Z] [INFO] [tr_3a4b5c6d7e8f9a] [acquirer-router] 3D-Secure step-up triggered for high risk score.
+[2026-07-04T13:31:22.095Z] [INFO] [tr_3a4b5c6d7e8f9a] [api-router] Response 202 Accepted sent in 91ms
+[2026-07-04T13:31:45.312Z] [INFO] [tr_1e2f3a4b5c6d7e] [api-router] Incoming POST request /v1/webhooks/retry from IP 127.0.0.1
+[2026-07-04T13:31:45.320Z] [INFO] [tr_1e2f3a4b5c6d7e] [webhook-dispatcher] Processing retry queue for merchant merch_live_a12b3
+[2026-07-04T13:31:47.350Z] [WARN] [tr_1e2f3a4b5c6d7e] [webhook-dispatcher] Webhook delivery attempt 2 failed for endpoint https://api.merchant.com/v1/webhook. Status: 502 Bad Gateway. Retrying in 300s.
+[2026-07-04T13:31:47.355Z] [INFO] [tr_1e2f3a4b5c6d7e] [api-router] Response 200 OK sent in 2043ms
+[2026-07-04T13:32:01.810Z] [INFO] [tr_5f6a7b8c9d0e1f] [api-router] Incoming POST request /v1/charges from IP 14.140.22.41
+[2026-07-04T13:32:01.822Z] [INFO] [tr_5f6a7b8c9d0e1f] [auth-validator] API Key verified for merchant: merch_live_88a1c
+[2026-07-04T13:32:01.855Z] [INFO] [tr_5f6a7b8c9d0e1f] [token-service] Card tokenization successful for vault_id: vlt_0029ab
+[2026-07-04T13:32:01.870Z] [INFO] [tr_5f6a7b8c9d0e1f] [risk-engine] Fraud score calculated: 15. Risk level: LOW
+[2026-07-04T13:32:01.882Z] [INFO] [tr_5f6a7b8c9d0e1f] [acquirer-router] Routing transaction tx_332155 to processor: HDFC_RAILS_1
+[2026-07-04T13:32:02.155Z] [INFO] [tr_5f6a7b8c9d0e1f] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth88190
+[2026-07-04T13:32:02.170Z] [INFO] [tr_5f6a7b8c9d0e1f] [ledger-db] Transaction tx_332155 updated status to SUCCESS
+[2026-07-04T13:32:02.178Z] [INFO] [tr_5f6a7b8c9d0e1f] [api-router] Response 200 OK sent in 368ms
+[2026-07-04T13:32:15.002Z] [INFO] [tr_9c8b7a6f5e4d3c] [api-router] Incoming POST request /v1/charges from IP 182.72.10.4
+[2026-07-04T13:32:15.011Z] [INFO] [tr_9c8b7a6f5e4d3c] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:32:15.044Z] [INFO] [tr_9c8b7a6f5e4d3c] [token-service] Card tokenization successful for vault_id: vlt_5599dd
+[2026-07-04T13:32:15.060Z] [INFO] [tr_9c8b7a6f5e4d3c] [risk-engine] Fraud score calculated: 5. Risk level: LOW
+[2026-07-04T13:32:15.072Z] [INFO] [tr_9c8b7a6f5e4d3c] [acquirer-router] Routing transaction tx_332156 to processor: ICICI_RAILS_2
+[2026-07-04T13:32:20.075Z] [ERROR] [tr_9c8b7a6f5e4d3c] [acquirer-client] Upstream read timeout on connection to ICICI_RAILS_2. Limit of 5000ms exceeded
+[2026-07-04T13:32:20.082Z] [INFO] [tr_9c8b7a6f5e4d3c] [ledger-db] Transaction tx_332156 updated status to FAILED. Error details recorded.
+[2026-07-04T13:32:20.090Z] [INFO] [tr_9c8b7a6f5e4d3c] [api-router] Response 504 Gateway Timeout sent in 5088ms
+[2026-07-04T13:32:25.114Z] [INFO] [tr_4b3c2d1e0f9a8b] [api-router] Incoming POST request /v1/customers from IP 157.44.189.3
+[2026-07-04T13:32:25.122Z] [INFO] [tr_4b3c2d1e0f9a8b] [auth-validator] API Key verified for merchant: merch_live_bb771
+[2026-07-04T13:32:25.150Z] [INFO] [tr_4b3c2d1e0f9a8b] [ledger-db] Created customer record cust_7721ab successfully
+[2026-07-04T13:32:25.155Z] [INFO] [tr_4b3c2d1e0f9a8b] [api-router] Response 201 Created sent in 41ms
+[2026-07-04T13:32:32.401Z] [INFO] [tr_8f7e6d5c4b3a2b] [api-router] Incoming POST request /v1/charges from IP 117.200.41.89
+[2026-07-04T13:32:32.412Z] [INFO] [tr_8f7e6d5c4b3a2b] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:32:32.445Z] [INFO] [tr_8f7e6d5c4b3a2b] [token-service] Card tokenization successful for vault_id: vlt_1092ef
+[2026-07-04T13:32:32.460Z] [INFO] [tr_8f7e6d5c4b3a2b] [risk-engine] Fraud score calculated: 11. Risk level: LOW
+[2026-07-04T13:32:32.472Z] [INFO] [tr_8f7e6d5c4b3a2b] [acquirer-router] Routing transaction tx_332157 to processor: HDFC_RAILS_1
+[2026-07-04T13:32:32.689Z] [INFO] [tr_8f7e6d5c4b3a2b] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth44102
+[2026-07-04T13:32:32.701Z] [INFO] [tr_8f7e6d5c4b3a2b] [ledger-db] Transaction tx_332157 updated status to SUCCESS
+[2026-07-04T13:32:32.710Z] [INFO] [tr_8f7e6d5c4b3a2b] [api-router] Response 200 OK sent in 309ms
+[2026-07-04T13:32:44.200Z] [INFO] [tr_2b3c4d5e6f7a8b] [api-router] Incoming POST request /v1/charges from IP 27.57.112.5
+[2026-07-04T13:32:44.212Z] [INFO] [tr_2b3c4d5e6f7a8b] [auth-validator] API Key verified for merchant: merch_live_f4711
+[2026-07-04T13:32:44.255Z] [INFO] [tr_2b3c4d5e6f7a8b] [token-service] Card tokenization successful for vault_id: vlt_9128cc
+[2026-07-04T13:32:44.270Z] [INFO] [tr_2b3c4d5e6f7a8b] [risk-engine] Fraud score calculated: 19. Risk level: LOW
+[2026-07-04T13:32:44.282Z] [INFO] [tr_2b3c4d5e6f7a8b] [acquirer-router] Routing transaction tx_332158 to processor: SBI_RAILS_1
+[2026-07-04T13:32:44.890Z] [ERROR] [tr_2b3c4d5e6f7a8b] [acquirer-client] Upstream banking entity returned raw error code: ERR_INSUFFICIENT_FUNDS
+[2026-07-04T13:32:44.901Z] [INFO] [tr_2b3c4d5e6f7a8b] [ledger-db] Transaction tx_332158 updated status to DECLINED
+[2026-07-04T13:32:44.908Z] [INFO] [tr_2b3c4d5e6f7a8b] [api-router] Response 402 Payment Required sent in 708ms
+[2026-07-04T13:33:01.011Z] [INFO] [tr_0f1a2b3c4d5e6f] [api-router] Incoming POST request /v1/charges from IP 103.211.55.14
+[2026-07-04T13:33:01.025Z] [INFO] [tr_0f1a2b3c4d5e6f] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:33:01.060Z] [INFO] [tr_0f1a2b3c4d5e6f] [token-service] Card tokenization successful for vault_id: vlt_3300aa
+[2026-07-04T13:33:01.075Z] [INFO] [tr_0f1a2b3c4d5e6f] [risk-engine] Fraud score calculated: 4. Risk level: LOW
+[2026-07-04T13:33:01.088Z] [INFO] [tr_0f1a2b3c4d5e6f] [acquirer-router] Routing transaction tx_332159 to processor: HDFC_RAILS_1
+[2026-07-04T13:33:01.399Z] [INFO] [tr_0f1a2b3c4d5e6f] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth00192
+[2026-07-04T13:33:01.412Z] [INFO] [tr_0f1a2b3c4d5e6f] [ledger-db] Transaction tx_332159 updated status to SUCCESS
+[2026-07-04T13:33:01.420Z] [INFO] [tr_0f1a2b3c4d5e6f] [api-router] Response 200 OK sent in 409ms
+[2026-07-04T13:33:05.110Z] [INFO] [tr_4a5b6c7d8e9f0a] [api-router] Incoming POST request /v1/charges from IP 122.170.81.19
+[2026-07-04T13:33:05.120Z] [INFO] [tr_4a5b6c7d8e9f0a] [auth-validator] API Key verified for merchant: merch_live_a12b3
+[2026-07-04T13:33:05.155Z] [INFO] [tr_4a5b6c7d8e9f0a] [token-service] Card tokenization successful for vault_id: vlt_7721ff
+[2026-07-04T13:33:05.170Z] [INFO] [tr_4a5b6c7d8e9f0a] [risk-engine] Fraud score calculated: 32. Risk level: LOW
+[2026-07-04T13:33:05.182Z] [INFO] [tr_4a5b6c7d8e9f0a] [acquirer-router] Routing transaction tx_332160 to processor: ICICI_RAILS_2
+[2026-07-04T13:33:05.412Z] [INFO] [tr_4a5b6c7d8e9f0a] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth55214
+[2026-07-04T13:33:05.425Z] [INFO] [tr_4a5b6c7d8e9f0a] [ledger-db] Transaction tx_332160 updated status to SUCCESS
+[2026-07-04T13:33:05.430Z] [INFO] [tr_4a5b6c7d8e9f0a] [api-router] Response 200 OK sent in 320ms
+[2026-07-04T13:33:12.802Z] [INFO] [tr_1b2c3d4e5f6a7b] [api-router] Incoming GET request /v1/merchants/balance from IP 202.54.1.30
+[2026-07-04T13:33:12.810Z] [INFO] [tr_1b2c3d4e5f6a7b] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:33:13.114Z] [WARN] [tr_1b2c3d4e5f6a7b] [ledger-db] Slow query detected on balance aggregation: 304ms. Index optimization recommended.
+[2026-07-04T13:33:13.120Z] [INFO] [tr_1b2c3d4e5f6a7b] [api-router] Response 200 OK sent in 318ms
+[2026-07-04T13:33:20.441Z] [INFO] [tr_7e8f9a0b1c2d3e] [api-router] Incoming POST request /v1/charges from IP 106.51.22.4
+[2026-07-04T13:33:20.450Z] [INFO] [tr_7e8f9a0b1c2d3e] [auth-validator] API Key verified for merchant: merch_live_f4711
+[2026-07-04T13:33:20.485Z] [INFO] [tr_7e8f9a0b1c2d3e] [token-service] Card tokenization successful for vault_id: vlt_2288ab
+[2026-07-04T13:33:20.501Z] [INFO] [tr_7e8f9a0b1c2d3e] [risk-engine] Fraud score calculated: 14. Risk level: LOW
+[2026-07-04T13:33:20.512Z] [INFO] [tr_7e8f9a0b1c2d3e] [acquirer-router] Routing transaction tx_332161 to processor: HDFC_RAILS_1
+[2026-07-04T13:33:20.812Z] [INFO] [tr_7e8f9a0b1c2d3e] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth10291
+[2026-07-04T13:33:20.825Z] [INFO] [tr_7e8f9a0b1c2d3e] [ledger-db] Transaction tx_332161 updated status to SUCCESS
+[2026-07-04T13:33:20.831Z] [INFO] [tr_7e8f9a0b1c2d3e] [api-router] Response 200 OK sent in 390ms
+[2026-07-04T13:33:45.002Z] [INFO] [tr_3d4e5f6a7b8c9d] [api-router] Incoming POST request /v1/charges from IP 157.45.22.18
+[2026-07-04T13:33:45.015Z] [INFO] [tr_3d4e5f6a7b8c9d] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:33:45.050Z] [INFO] [tr_3d4e5f6a7b8c9d] [token-service] Card tokenization successful for vault_id: vlt_5544ee
+[2026-07-04T13:33:45.065Z] [INFO] [tr_3d4e5f6a7b8c9d] [risk-engine] Fraud score calculated: 62. Risk level: MEDIUM
+[2026-07-04T13:33:45.080Z] [INFO] [tr_3d4e5f6a7b8c9d] [acquirer-router] Routing transaction tx_332162 to processor: SBI_RAILS_1
+[2026-07-04T13:33:46.411Z] [ERROR] [tr_3d4e5f6a7b8c9d] [acquirer-client] Upstream banking network response error. Status: 500 Internal Server Error. Raw body: SYSTEM_MAINTENANCE
+[2026-07-04T13:33:46.420Z] [INFO] [tr_3d4e5f6a7b8c9d] [ledger-db] Transaction tx_332162 updated status to FAILED. Dynamic failover scheduled.
+[2026-07-04T13:33:46.425Z] [WARN] [tr_3d4e5f6a7b8c9d] [acquirer-router] SBI_RAILS_1 showing elevated failure rate. Temporarily shedding load allocation by 20%
+[2026-07-04T13:33:46.435Z] [INFO] [tr_3d4e5f6a7b8c9d] [api-router] Response 502 Bad Gateway sent in 1433ms
+[2026-07-04T13:34:01.104Z] [INFO] [tr_6f7a8b9c0d1e2f] [api-router] Incoming POST request /v1/charges from IP 115.112.40.9
+[2026-07-04T13:34:01.112Z] [INFO] [tr_6f7a8b9c0d1e2f] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:34:01.144Z] [INFO] [tr_6f7a8b9c0d1e2f] [token-service] Card tokenization successful for vault_id: vlt_4422bb
+[2026-07-04T13:34:01.160Z] [INFO] [tr_6f7a8b9c0d1e2f] [risk-engine] Fraud score calculated: 1. Risk level: LOW
+[2026-07-04T13:34:01.172Z] [INFO] [tr_6f7a8b9c0d1e2f] [acquirer-router] Routing transaction tx_332163 to processor: HDFC_RAILS_1
+[2026-07-04T13:34:01.405Z] [INFO] [tr_6f7a8b9c0d1e2f] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth77123
+[2026-07-04T13:34:01.418Z] [INFO] [tr_6f7a8b9c0d1e2f] [ledger-db] Transaction tx_332163 updated status to SUCCESS
+[2026-07-04T13:34:01.424Z] [INFO] [tr_6f7a8b9c0d1e2f] [api-router] Response 200 OK sent in 320ms
+[2026-07-04T13:34:05.512Z] [INFO] [tr_0a1b2c3d4e5f6a] [api-router] Incoming POST request /v1/charges from IP 182.70.15.22
+[2026-07-04T13:34:05.522Z] [INFO] [tr_0a1b2c3d4e5f6a] [auth-validator] API Key verified for merchant: merch_live_a12b3
+[2026-07-04T13:34:05.555Z] [INFO] [tr_0a1b2c3d4e5f6a] [token-service] Card tokenization successful for vault_id: vlt_8899fa
+[2026-07-04T13:34:05.570Z] [INFO] [tr_0a1b2c3d4e5f6a] [risk-engine] Fraud score calculated: 22. Risk level: LOW
+[2026-07-04T13:34:05.582Z] [INFO] [tr_0a1b2c3d4e5f6a] [acquirer-router] Routing transaction tx_332164 to processor: ICICI_RAILS_2
+[2026-07-04T13:34:05.812Z] [INFO] [tr_0a1b2c3d4e5f6a] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth00293
+[2026-07-04T13:34:05.824Z] [INFO] [tr_0a1b2c3d4e5f6a] [ledger-db] Transaction tx_332164 updated status to SUCCESS
+[2026-07-04T13:34:05.830Z] [INFO] [tr_0a1b2c3d4e5f6a] [api-router] Response 200 OK sent in 318ms
+[2026-07-04T13:34:18.901Z] [INFO] [tr_4e5d6c7b8a9f0e] [api-router] Incoming POST request /v1/charges from IP 49.36.12.94
+[2026-07-04T13:34:18.910Z] [INFO] [tr_4e5d6c7b8a9f0e] [auth-validator] API Key verified for merchant: merch_live_0019a
+[2026-07-04T13:34:18.945Z] [INFO] [tr_4e5d6c7b8a9f0e] [token-service] Card tokenization successful for vault_id: vlt_6644dd
+[2026-07-04T13:34:18.960Z] [INFO] [tr_4e5d6c7b8a9f0e] [risk-engine] Fraud score calculated: 88. Risk level: HIGH
+[2026-07-04T13:34:18.966Z] [WARN] [tr_4e5d6c7b8a9f0e] [risk-engine] High risk indicators match rule: R_GEO_MISMATCH (Card country distinct from client IP geolocation)
+[2026-07-04T13:34:18.980Z] [INFO] [tr_4e5d6c7b8a9f0e] [acquirer-router] Routing transaction tx_332165 to processor: HDFC_RAILS_1
+[2026-07-04T13:34:19.412Z] [ERROR] [tr_4e5d6c7b8a9f0e] [acquirer-client] Upstream provider rejected charge. Status Code: 400. Sub-code: 3DS_REQUIRED_BY_ISSUER
+[2026-07-04T13:34:19.422Z] [INFO] [tr_4e5d6c7b8a9f0e] [ledger-db] Transaction tx_332165 updated status to FAILED
+[2026-07-04T13:34:19.428Z] [INFO] [tr_4e5d6c7b8a9f0e] [api-router] Response 400 Bad Request sent in 527ms
+[2026-07-04T13:34:33.201Z] [INFO] [tr_8b9c0d1e2f3a4b] [api-router] Incoming GET request /v1/settlements/set_9910a from IP 103.241.12.9
+[2026-07-04T13:34:33.212Z] [INFO] [tr_8b9c0d1e2f3a4b] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:34:33.245Z] [INFO] [tr_8b9c0d1e2f3a4b] [ledger-db] Retrieved settlement data block size: 450 rows
+[2026-07-04T13:34:33.255Z] [INFO] [tr_8b9c0d1e2f3a4b] [api-router] Response 200 OK sent in 54ms
+[2026-07-04T13:35:01.002Z] [INFO] [tr_5e6f7a8b9c0d1e] [api-router] Incoming POST request /v1/charges from IP 157.44.112.55
+[2026-07-04T13:35:01.012Z] [INFO] [tr_5e6f7a8b9c0d1e] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:35:01.045Z] [INFO] [tr_5e6f7a8b9c0d1e] [token-service] Card tokenization successful for vault_id: vlt_2211bb
+[2026-07-04T13:35:01.060Z] [INFO] [tr_5e6f7a8b9c0d1e] [risk-engine] Fraud score calculated: 4. Risk level: LOW
+[2026-07-04T13:35:01.072Z] [INFO] [tr_5e6f7a8b9c0d1e] [acquirer-router] Routing transaction tx_332166 to processor: HDFC_RAILS_1
+[2026-07-04T13:35:01.320Z] [INFO] [tr_5e6f7a8b9c0d1e] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth00295
+[2026-07-04T13:35:01.332Z] [INFO] [tr_5e6f7a8b9c0d1e] [ledger-db] Transaction tx_332166 updated status to SUCCESS
+[2026-07-04T13:35:01.340Z] [INFO] [tr_5e6f7a8b9c0d1e] [api-router] Response 200 OK sent in 338ms
+[2026-07-04T13:35:10.450Z] [INFO] [tr_9a0b1c2d3e4f5a] [api-router] Incoming POST request /v1/charges from IP 122.160.10.4
+[2026-07-04T13:35:10.462Z] [INFO] [tr_9a0b1c2d3e4f5a] [auth-validator] API Key verified for merchant: merch_live_bb771
+[2026-07-04T13:35:10.495Z] [INFO] [tr_9a0b1c2d3e4f5a] [token-service] Card tokenization successful for vault_id: vlt_3344cc
+[2026-07-04T13:35:10.511Z] [INFO] [tr_9a0b1c2d3e4f5a] [risk-engine] Fraud score calculated: 16. Risk level: LOW
+[2026-07-04T13:35:10.522Z] [INFO] [tr_9a0b1c2d3e4f5a] [acquirer-router] Routing transaction tx_332167 to processor: ICICI_RAILS_2
+[2026-07-04T13:35:10.820Z] [INFO] [tr_9a0b1c2d3e4f5a] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth44120
+[2026-07-04T13:35:10.832Z] [INFO] [tr_9a0b1c2d3e4f5a] [ledger-db] Transaction tx_332167 updated status to SUCCESS
+[2026-07-04T13:35:10.840Z] [INFO] [tr_9a0b1c2d3e4f5a] [api-router] Response 200 OK sent in 390ms
+[2026-07-04T13:35:15.110Z] [INFO] [tr_3c4d5e6f7a8b9c] [api-router] Incoming POST request /v1/charges/crypto from IP 198.51.100.44
+[2026-07-04T13:35:15.120Z] [INFO] [tr_3c4d5e6f7a8b9c] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:35:15.145Z] [ERROR] [tr_3c4d5e6f7a8b9c] [acquirer-router] Unsupported funding instrument type: CRYPTO_WALLET. Route execution aborted.
+[2026-07-04T13:35:15.150Z] [INFO] [tr_3c4d5e6f7a8b9c] [api-router] Response 400 Bad Request sent in 40ms
+[2026-07-04T13:35:32.610Z] [INFO] [tr_7a8b9c0d1e2f3a] [api-router] Incoming POST request /v1/charges from IP 49.37.112.105
+[2026-07-04T13:35:32.622Z] [INFO] [tr_7a8b9c0d1e2f3a] [auth-validator] API Key verified for merchant: merch_live_88a1c
+[2026-07-04T13:35:32.655Z] [INFO] [tr_7a8b9c0d1e2f3a] [token-service] Card tokenization successful for vault_id: vlt_7711aa
+[2026-07-04T13:35:32.670Z] [INFO] [tr_7a8b9c0d1e2f3a] [risk-engine] Fraud score calculated: 9. Risk level: LOW
+[2026-07-04T13:35:32.682Z] [INFO] [tr_7a8b9c0d1e2f3a] [acquirer-router] Routing transaction tx_332168 to processor: HDFC_RAILS_1
+[2026-07-04T13:35:33.004Z] [INFO] [tr_7a8b9c0d1e2f3a] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth33120
+[2026-07-04T13:35:33.015Z] [INFO] [tr_7a8b9c0d1e2f3a] [ledger-db] Transaction tx_332168 updated status to SUCCESS
+[2026-07-04T13:35:33.021Z] [INFO] [tr_7a8b9c0d1e2f3a] [api-router] Response 200 OK sent in 411ms
+[2026-07-04T13:35:50.002Z] [INFO] [tr_1c2b3a4f5e6d7c] [api-router] Incoming POST request /v1/disputes/evidence from IP 14.141.55.9
+[2026-07-04T13:35:50.015Z] [INFO] [tr_1c2b3a4f5e6d7c] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:35:53.114Z] [WARN] [tr_1c2b3a4f5e6d7c] [api-router] File upload sizing approaching boundary limit for component payload. Size: 9.4 MB
+[2026-07-04T13:35:54.210Z] [INFO] [tr_1c2b3a4f5e6d7c] [ledger-db] Dispute evidence stored for disp_001928ab
+[2026-07-04T13:35:54.225Z] [INFO] [tr_1c2b3a4f5e6d7c] [api-router] Response 200 OK sent in 4223ms
+[2026-07-04T13:36:01.104Z] [INFO] [tr_4f5a6b7c8d9e0f] [api-router] Incoming POST request /v1/charges from IP 117.201.5.43
+[2026-07-04T13:36:01.115Z] [INFO] [tr_4f5a6b7c8d9e0f] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:36:01.145Z] [INFO] [tr_4f5a6b7c8d9e0f] [token-service] Card tokenization successful for vault_id: vlt_9944bb
+[2026-07-04T13:36:01.160Z] [INFO] [tr_4f5a6b7c8d9e0f] [risk-engine] Fraud score calculated: 3. Risk level: LOW
+[2026-07-04T13:36:01.172Z] [INFO] [tr_4f5a6b7c8d9e0f] [acquirer-router] Routing transaction tx_332169 to processor: HDFC_RAILS_1
+[2026-07-04T13:36:01.402Z] [INFO] [tr_4f5a6b7c8d9e0f] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth11094
+[2026-07-04T13:36:01.415Z] [INFO] [tr_4f5a6b7c8d9e0f] [ledger-db] Transaction tx_332169 updated status to SUCCESS
+[2026-07-04T13:36:01.420Z] [INFO] [tr_4f5a6b7c8d9e0f] [api-router] Response 200 OK sent in 316ms
+[2026-07-04T13:36:04.220Z] [INFO] [tr_0d1e2f3a4b5c6d] [api-router] Incoming POST request /v1/charges from IP 122.172.90.11
+[2026-07-04T13:36:04.232Z] [INFO] [tr_0d1e2f3a4b5c6d] [auth-validator] API Key verified for merchant: merch_live_a12b3
+[2026-07-04T13:36:04.265Z] [INFO] [tr_0d1e2f3a4b5c6d] [token-service] Card tokenization successful for vault_id: vlt_4400cc
+[2026-07-04T13:36:04.280Z] [INFO] [tr_0d1e2f3a4b5c6d] [risk-engine] Fraud score calculated: 18. Risk level: LOW
+[2026-07-04T13:36:04.292Z] [INFO] [tr_0d1e2f3a4b5c6d] [acquirer-router] Routing transaction tx_332170 to processor: ICICI_RAILS_2
+[2026-07-04T13:36:04.551Z] [INFO] [tr_0d1e2f3a4b5c6d] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth77102
+[2026-07-04T13:36:04.562Z] [INFO] [tr_0d1e2f3a4b5c6d] [ledger-db] Transaction tx_332170 updated status to SUCCESS
+[2026-07-04T13:36:04.570Z] [INFO] [tr_0d1e2f3a4b5c6d] [api-router] Response 200 OK sent in 350ms
+[2026-07-04T13:36:12.891Z] [INFO] [tr_6b7c8d9e0f1a2b] [api-router] Incoming POST request /v1/charges from IP 157.44.130.8
+[2026-07-04T13:36:12.902Z] [INFO] [tr_6b7c8d9e0f1a2b] [auth-validator] API Key verified for merchant: merch_live_f4711
+[2026-07-04T13:36:12.945Z] [INFO] [tr_6b7c8d9e0f1a2b] [token-service] Card tokenization successful for vault_id: vlt_5511aa
+[2026-07-04T13:36:12.960Z] [INFO] [tr_6b7c8d9e0f1a2b] [risk-engine] Fraud score calculated: 25. Risk level: LOW
+[2026-07-04T13:36:12.972Z] [INFO] [tr_6b7c8d9e0f1a2b] [acquirer-router] Routing transaction tx_332171 to processor: SBI_RAILS_1
+[2026-07-04T13:36:13.250Z] [WARN] [tr_6b7c8d9e0f1a2b] [acquirer-client] SBI_RAILS_1 circuit breaker status: HALF-OPEN. Monitoring error metrics carefully.
+[2026-07-04T13:36:13.412Z] [INFO] [tr_6b7c8d9e0f1a2b] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth55219
+[2026-07-04T13:36:13.425Z] [INFO] [tr_6b7c8d9e0f1a2b] [ledger-db] Transaction tx_332171 updated status to SUCCESS
+[2026-07-04T13:36:13.430Z] [INFO] [tr_6b7c8d9e0f1a2b] [api-router] Response 200 OK sent in 539ms
+[2026-07-04T13:36:20.115Z] [INFO] [tr_2a3b4c5d6e7f8a] [api-router] Incoming POST request /v1/charges from IP 103.211.55.99
+[2026-07-04T13:36:20.124Z] [INFO] [tr_2a3b4c5d6e7f8a] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:36:20.155Z] [INFO] [tr_2a3b4c5d6e7f8a] [token-service] Card tokenization successful for vault_id: vlt_3311bb
+[2026-07-04T13:36:20.170Z] [INFO] [tr_2a3b4c5d6e7f8a] [risk-engine] Fraud score calculated: 5. Risk level: LOW
+[2026-07-04T13:36:20.182Z] [INFO] [tr_2a3b4c5d6e7f8a] [acquirer-router] Routing transaction tx_332172 to processor: HDFC_RAILS_1
+[2026-07-04T13:36:20.402Z] [INFO] [tr_2a3b4c5d6e7f8a] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth00298
+[2026-07-04T13:36:20.415Z] [INFO] [tr_2a3b4c5d6e7f8a] [ledger-db] Transaction tx_332172 updated status to SUCCESS
+[2026-07-04T13:36:20.420Z] [INFO] [tr_2a3b4c5d6e7f8a] [api-router] Response 200 OK sent in 305ms
+[2026-07-04T13:36:35.002Z] [INFO] [tr_8e9f0a1b2c3d4e] [api-router] Incoming POST request /v1/charges from IP 182.72.110.45
+[2026-07-04T13:36:35.012Z] [INFO] [tr_8e9f0a1b2c3d4e] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:36:35.045Z] [INFO] [tr_8e9f0a1b2c3d4e] [token-service] Card tokenization successful for vault_id: vlt_9911aa
+[2026-07-04T13:36:35.060Z] [INFO] [tr_8e9f0a1b2c3d4e] [risk-engine] Fraud score calculated: 41. Risk level: MEDIUM
+[2026-07-04T13:36:35.072Z] [INFO] [tr_8e9f0a1b2c3d4e] [acquirer-router] Routing transaction tx_332173 to processor: ICICI_RAILS_2
+[2026-07-04T13:36:35.312Z] [INFO] [tr_8e9f0a1b2c3d4e] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth55210
+[2026-07-04T13:36:35.325Z] [INFO] [tr_8e9f0a1b2c3d4e] [ledger-db] Transaction tx_332173 updated status to SUCCESS
+[2026-07-04T13:36:35.330Z] [INFO] [tr_8e9f0a1b2c3d4e] [api-router] Response 200 OK sent in 328ms
+[2026-07-04T13:36:45.101Z] [INFO] [tr_4c5d6e7f8a9b0c] [api-router] Incoming POST request /v1/charges from IP 49.36.14.22
+[2026-07-04T13:36:45.110Z] [INFO] [tr_4c5d6e7f8a9b0c] [auth-validator] API Key verified for merchant: merch_live_0019a
+[2026-07-04T13:36:45.155Z] [INFO] [tr_4c5d6e7f8a9b0c] [token-service] Card tokenization successful for vault_id: vlt_2233bb
+[2026-07-04T13:36:45.170Z] [INFO] [tr_4c5d6e7f8a9b0c] [risk-engine] Fraud score calculated: 12. Risk level: LOW
+[2026-07-04T13:36:45.182Z] [INFO] [tr_4c5d6e7f8a9b0c] [acquirer-router] Routing transaction tx_332174 to processor: HDFC_RAILS_1
+[2026-07-04T13:36:45.420Z] [INFO] [tr_4c5d6e7f8a9b0c] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth88120
+[2026-07-04T13:36:45.432Z] [INFO] [tr_4c5d6e7f8a9b0c] [ledger-db] Transaction tx_332174 updated status to SUCCESS
+[2026-07-04T13:36:45.438Z] [INFO] [tr_4c5d6e7f8a9b0c] [api-router] Response 200 OK sent in 337ms
+[2026-07-04T13:37:01.002Z] [INFO] [tr_1a2b3c4d5e6f7a] [api-router] Incoming POST request /v1/charges from IP 115.242.11.8
+[2026-07-04T13:37:01.012Z] [INFO] [tr_1a2b3c4d5e6f7a] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:37:01.045Z] [INFO] [tr_1a2b3c4d5e6f7a] [token-service] Card tokenization successful for vault_id: vlt_5588cc
+[2026-07-04T13:37:01.060Z] [INFO] [tr_1a2b3c4d5e6f7a] [risk-engine] Fraud score calculated: 2. Risk level: LOW
+[2026-07-04T13:37:01.072Z] [INFO] [tr_1a2b3c4d5e6f7a] [acquirer-router] Routing transaction tx_332175 to processor: HDFC_RAILS_1
+[2026-07-04T13:37:01.312Z] [INFO] [tr_1a2b3c4d5e6f7a] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth00394
+[2026-07-04T13:37:01.325Z] [INFO] [tr_1a2b3c4d5e6f7a] [ledger-db] Transaction tx_332175 updated status to SUCCESS
+[2026-07-04T13:37:01.331Z] [INFO] [tr_1a2b3c4d5e6f7a] [api-router] Response 200 OK sent in 329ms
+[2026-07-04T13:37:06.411Z] [INFO] [tr_5e6f7a8b9c0d1f] [api-router] Incoming POST request /v1/charges from IP 122.161.40.5
+[2026-07-04T13:37:06.422Z] [INFO] [tr_5e6f7a8b9c0d1f] [auth-validator] API Key verified for merchant: merch_live_bb771
+[2026-07-04T13:37:06.455Z] [INFO] [tr_5e6f7a8b9c0d1f] [token-service] Card tokenization successful for vault_id: vlt_3300ff
+[2026-07-04T13:37:06.470Z] [INFO] [tr_5e6f7a8b9c0d1f] [risk-engine] Fraud score calculated: 15. Risk level: LOW
+[2026-07-04T13:37:06.482Z] [INFO] [tr_5e6f7a8b9c0d1f] [acquirer-router] Routing transaction tx_332176 to processor: ICICI_RAILS_2
+[2026-07-04T13:37:06.750Z] [INFO] [tr_5e6f7a8b9c0d1f] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth44109
+[2026-07-04T13:37:06.762Z] [INFO] [tr_5e6f7a8b9c0d1f] [ledger-db] Transaction tx_332176 updated status to SUCCESS
+[2026-07-04T13:37:06.770Z] [INFO] [tr_5e6f7a8b9c0d1f] [api-router] Response 200 OK sent in 359ms
+[2026-07-04T13:37:11.890Z] [INFO] [tr_9c0b1d2e3f4a5b] [api-router] Incoming POST request /v1/charges from IP 14.142.112.4
+[2026-07-04T13:37:11.901Z] [INFO] [tr_9c0b1d2e3f4a5b] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:37:11.935Z] [INFO] [tr_9c0b1d2e3f4a5b] [token-service] Card tokenization successful for vault_id: vlt_8844dd
+[2026-07-04T13:37:11.950Z] [INFO] [tr_9c0b1d2e3f4a5b] [risk-engine] Fraud score calculated: 55. Risk level: MEDIUM
+[2026-07-04T13:37:11.962Z] [INFO] [tr_9c0b1d2e3f4a5b] [acquirer-router] Routing transaction tx_332177 to processor: SBI_RAILS_1
+[2026-07-04T13:37:11.995Z] [WARN] [tr_9c0b1d2e3f4a5b] [acquirer-client] Upstream processing path experiencing high packet variance on SBI network segment.
+[2026-07-04T13:37:14.210Z] [INFO] [tr_9c0b1d2e3f4a5b] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth33012
+[2026-07-04T13:37:14.222Z] [INFO] [tr_9c0b1d2e3f4a5b] [ledger-db] Transaction tx_332177 updated status to SUCCESS
+[2026-07-04T13:37:14.228Z] [INFO] [tr_9c0b1d2e3f4a5b] [api-router] Response 200 OK sent in 2338ms
+[2026-07-04T13:37:25.612Z] [INFO] [tr_3f4a5b6c7d8e9f] [api-router] Incoming POST request /v1/charges from IP 192.168.1.5
+[2026-07-04T13:37:25.620Z] [INFO] [tr_3f4a5b6c7d8e9f] [auth-validator] API Key verified for merchant: merch_live_88a1c
+[2026-07-04T13:37:25.655Z] [INFO] [tr_3f4a5b6c7d8e9f] [token-service] Card tokenization successful for vault_id: vlt_2200aa
+[2026-07-04T13:37:25.670Z] [INFO] [tr_3f4a5b6c7d8e9f] [risk-engine] Fraud score calculated: 8. Risk level: LOW
+[2026-07-04T13:37:25.682Z] [INFO] [tr_3f4a5b6c7d8e9f] [acquirer-router] Routing transaction tx_332178 to processor: HDFC_RAILS_1
+[2026-07-04T13:37:25.912Z] [INFO] [tr_3f4a5b6c7d8e9f] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth99210
+[2026-07-04T13:37:25.925Z] [INFO] [tr_3f4a5b6c7d8e9f] [ledger-db] Transaction tx_332178 updated status to SUCCESS
+[2026-07-04T13:37:25.930Z] [INFO] [tr_3f4a5b6c7d8e9f] [api-router] Response 200 OK sent in 318ms
+[2026-07-04T13:37:44.200Z] [INFO] [tr_0c1b2d3e4f5a6c] [api-router] Incoming POST request /v1/charges from IP 157.45.10.2
+[2026-07-04T13:37:44.211Z] [INFO] [tr_0c1b2d3e4f5a6c] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:37:44.244Z] [INFO] [tr_0c1b2d3e4f5a6c] [token-service] Card tokenization successful for vault_id: vlt_5533bb
+[2026-07-04T13:37:44.260Z] [INFO] [tr_0c1b2d3e4f5a6c] [risk-engine] Fraud score calculated: 11. Risk level: LOW
+[2026-07-04T13:37:44.272Z] [INFO] [tr_0c1b2d3e4f5a6c] [acquirer-router] Routing transaction tx_332179 to processor: ICICI_RAILS_2
+[2026-07-04T13:37:44.512Z] [INFO] [tr_0c1b2d3e4f5a6c] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth88194
+[2026-07-04T13:37:44.525Z] [INFO] [tr_0c1b2d3e4f5a6c] [ledger-db] Transaction tx_332179 updated status to SUCCESS
+[2026-07-04T13:37:44.531Z] [INFO] [tr_0c1b2d3e4f5a6c] [api-router] Response 200 OK sent in 331ms
+[2026-07-04T13:38:01.002Z] [INFO] [tr_7e8f9a0b1c2d3f] [api-router] Incoming POST request /v1/charges from IP 117.200.5.114
+[2026-07-04T13:38:01.012Z] [INFO] [tr_7e8f9a0b1c2d3f] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:38:01.045Z] [INFO] [tr_7e8f9a0b1c2d3f] [token-service] Card tokenization successful for vault_id: vlt_3344dd
+[2026-07-04T13:38:01.060Z] [INFO] [tr_7e8f9a0b1c2d3f] [risk-engine] Fraud score calculated: 4. Risk level: LOW
+[2026-07-04T13:38:01.072Z] [INFO] [tr_7e8f9a0b1c2d3f] [acquirer-router] Routing transaction tx_332180 to processor: HDFC_RAILS_1
+[2026-07-04T13:38:01.320Z] [INFO] [tr_7e8f9a0b1c2d3f] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth00299
+[2026-07-04T13:38:01.332Z] [INFO] [tr_7e8f9a0b1c2d3f] [ledger-db] Transaction tx_332180 updated status to SUCCESS
+[2026-07-04T13:38:01.340Z] [INFO] [tr_7e8f9a0b1c2d3f] [api-router] Response 200 OK sent in 338ms
+[2026-07-04T13:38:06.101Z] [INFO] [tr_3a4b5c6d7e8f9b] [api-router] Incoming POST request /v1/charges from IP 49.37.12.55
+[2026-07-04T13:38:06.110Z] [INFO] [tr_3a4b5c6d7e8f9b] [auth-validator] API Key verified for merchant: merch_live_0019a
+[2026-07-04T13:38:06.145Z] [INFO] [tr_3a4b5c6d7e8f9b] [token-service] Card tokenization successful for vault_id: vlt_9922aa
+[2026-07-04T13:38:06.160Z] [INFO] [tr_3a4b5c6d7e8f9b] [risk-engine] Fraud score calculated: 19. Risk level: LOW
+[2026-07-04T13:38:06.172Z] [INFO] [tr_3a4b5c6d7e8f9b] [acquirer-router] Routing transaction tx_332181 to processor: ICICI_RAILS_2
+[2026-07-04T13:38:06.412Z] [INFO] [tr_3a4b5c6d7e8f9b] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth55102
+[2026-07-04T13:38:06.425Z] [INFO] [tr_3a4b5c6d7e8f9b] [ledger-db] Transaction tx_332181 updated status to SUCCESS
+[2026-07-04T13:38:06.431Z] [INFO] [tr_3a4b5c6d7e8f9b] [api-router] Response 200 OK sent in 330ms
+[2026-07-04T13:38:12.801Z] [INFO] [tr_0f1e2d3c4b5a6d] [api-router] Incoming POST request /v1/charges from IP 182.72.10.98
+[2026-07-04T13:38:12.812Z] [INFO] [tr_0f1e2d3c4b5a6d] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:38:12.855Z] [INFO] [tr_0f1e2d3c4b5a6d] [token-service] Card tokenization successful for vault_id: vlt_5599ff
+[2026-07-04T13:38:12.870Z] [INFO] [tr_0f1e2d3c4b5a6d] [risk-engine] Fraud score calculated: 33. Risk level: LOW
+[2026-07-04T13:38:12.882Z] [INFO] [tr_0f1e2d3c4b5a6d] [acquirer-router] Routing transaction tx_332182 to processor: HDFC_RAILS_1
+[2026-07-04T13:38:13.114Z] [INFO] [tr_0f1e2d3c4b5a6d] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth00195
+[2026-07-04T13:38:13.125Z] [INFO] [tr_0f1e2d3c4b5a6d] [ledger-db] Transaction tx_332182 updated status to SUCCESS
+[2026-07-04T13:38:13.131Z] [INFO] [tr_0f1e2d3c4b5a6d] [api-router] Response 200 OK sent in 330ms
+[2026-07-04T13:38:33.201Z] [INFO] [tr_6c7d8e9f0a1b2c] [api-router] Incoming POST request /v1/charges from IP 115.241.90.5
+[2026-07-04T13:38:33.212Z] [INFO] [tr_6c7d8e9f0a1b2c] [auth-validator] API Key verified for merchant: merch_live_bb771
+[2026-07-04T13:38:33.255Z] [INFO] [tr_6c7d8e9f0a1b2c] [token-service] Card tokenization successful for vault_id: vlt_2288cc
+[2026-07-04T13:38:33.270Z] [INFO] [tr_6c7d8e9f0a1b2c] [risk-engine] Fraud score calculated: 5. Risk level: LOW
+[2026-07-04T13:38:33.282Z] [INFO] [tr_6c7d8e9f0a1b2c] [acquirer-router] Routing transaction tx_332183 to processor: SBI_RAILS_1
+[2026-07-04T13:38:33.612Z] [INFO] [tr_6c7d8e9f0a1b2c] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth33129
+[2026-07-04T13:38:33.625Z] [INFO] [tr_6c7d8e9f0a1b2c] [ledger-db] Transaction tx_332183 updated status to SUCCESS
+[2026-07-04T13:38:33.630Z] [INFO] [tr_6c7d8e9f0a1b2c] [api-router] Response 200 OK sent in 429ms
+[2026-07-04T13:38:45.002Z] [INFO] [tr_2d3e4f5a6b7c8e] [api-router] Incoming POST request /v1/charges from IP 157.44.112.9
+[2026-07-04T13:38:45.011Z] [INFO] [tr_2d3e4f5a6b7c8e] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:38:45.045Z] [INFO] [tr_2d3e4f5a6b7c8e] [token-service] Card tokenization successful for vault_id: vlt_1144bb
+[2026-07-04T13:38:45.060Z] [INFO] [tr_2d3e4f5a6b7c8e] [risk-engine] Fraud score calculated: 12. Risk level: LOW
+[2026-07-04T13:38:45.072Z] [INFO] [tr_2d3e4f5a6b7c8e] [acquirer-router] Routing transaction tx_332184 to processor: HDFC_RAILS_1
+[2026-07-04T13:38:45.312Z] [INFO] [tr_2d3e4f5a6b7c8e] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth00291
+[2026-07-04T13:38:45.325Z] [INFO] [tr_2d3e4f5a6b7c8e] [ledger-db] Transaction tx_332184 updated status to SUCCESS
+[2026-07-04T13:38:45.331Z] [INFO] [tr_2d3e4f5a6b7c8e] [api-router] Response 200 OK sent in 329ms
+[2026-07-04T13:39:01.104Z] [INFO] [tr_8a9b0c1d2e3f4b] [api-router] Incoming POST request /v1/charges from IP 103.211.55.101
+[2026-07-04T13:39:01.115Z] [INFO] [tr_8a9b0c1d2e3f4b] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:39:01.145Z] [INFO] [tr_8a9b0c1d2e3f4b] [token-service] Card tokenization successful for vault_id: vlt_9933aa
+[2026-07-04T13:39:01.160Z] [INFO] [tr_8a9b0c1d2e3f4b] [risk-engine] Fraud score calculated: 4. Risk level: LOW
+[2026-07-04T13:39:01.172Z] [INFO] [tr_8a9b0c1d2e3f4b] [acquirer-router] Routing transaction tx_332185 to processor: ICICI_RAILS_2
+[2026-07-04T13:39:01.411Z] [INFO] [tr_8a9b0c1d2e3f4b] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth55214
+[2026-07-04T13:39:01.425Z] [INFO] [tr_8a9b0c1d2e3f4b] [ledger-db] Transaction tx_332185 updated status to SUCCESS
+[2026-07-04T13:39:01.430Z] [INFO] [tr_8a9b0c1d2e3f4b] [api-router] Response 200 OK sent in 326ms
+[2026-07-04T13:39:05.450Z] [INFO] [tr_4e5f6a7b8c9d0f] [api-router] Incoming POST request /v1/charges from IP 14.140.22.88
+[2026-07-04T13:39:05.462Z] [INFO] [tr_4e5f6a7b8c9d0f] [auth-validator] API Key verified for merchant: merch_live_88a1c
+[2026-07-04T13:39:05.495Z] [INFO] [tr_4e5f6a7b8c9d0f] [token-service] Card tokenization successful for vault_id: vlt_0022cc
+[2026-07-04T13:39:05.511Z] [INFO] [tr_4e5f6a7b8c9d0f] [risk-engine] Fraud score calculated: 16. Risk level: LOW
+[2026-07-04T13:39:05.522Z] [INFO] [tr_4e5f6a7b8c9d0f] [acquirer-router] Routing transaction tx_332186 to processor: HDFC_RAILS_1
+[2026-07-04T13:39:05.811Z] [INFO] [tr_4e5f6a7b8c9d0f] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth99120
+[2026-07-04T13:39:05.825Z] [INFO] [tr_4e5f6a7b8c9d0f] [ledger-db] Transaction tx_332186 updated status to SUCCESS
+[2026-07-04T13:39:05.830Z] [INFO] [tr_4e5f6a7b8c9d0f] [api-router] Response 200 OK sent in 380ms
+[2026-07-04T13:39:11.200Z] [INFO] [tr_0a1b2c3d4e5f6b] [api-router] Incoming POST request /v1/charges from IP 182.72.10.4
+[2026-07-04T13:39:11.211Z] [INFO] [tr_0a1b2c3d4e5f6b] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:39:11.244Z] [INFO] [tr_0a1b2c3d4e5f6b] [token-service] Card tokenization successful for vault_id: vlt_5588aa
+[2026-07-04T13:39:11.260Z] [INFO] [tr_0a1b2c3d4e5f6b] [risk-engine] Fraud score calculated: 5. Risk level: LOW
+[2026-07-04T13:39:11.272Z] [INFO] [tr_0a1b2c3d4e5f6b] [acquirer-router] Routing transaction tx_332187 to processor: HDFC_RAILS_1
+[2026-07-04T13:39:11.512Z] [INFO] [tr_0a1b2c3d4e5f6b] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth00123
+[2026-07-04T13:39:11.525Z] [INFO] [tr_0a1b2c3d4e5f6b] [ledger-db] Transaction tx_332187 updated status to SUCCESS
+[2026-07-04T13:39:11.530Z] [INFO] [tr_0a1b2c3d4e5f6b] [api-router] Response 200 OK sent in 330ms
+[2026-07-04T13:39:20.401Z] [INFO] [tr_6b7c8d9e0f1a2c] [api-router] Incoming POST request /v1/charges from IP 49.36.14.99
+[2026-07-04T13:39:20.412Z] [INFO] [tr_6b7c8d9e0f1a2c] [auth-validator] API Key verified for merchant: merch_live_0019a
+[2026-07-04T13:39:20.445Z] [INFO] [tr_6b7c8d9e0f1a2c] [token-service] Card tokenization successful for vault_id: vlt_2244bb
+[2026-07-04T13:39:20.460Z] [INFO] [tr_6b7c8d9e0f1a2c] [risk-engine] Fraud score calculated: 11. Risk level: LOW
+[2026-07-04T13:39:20.472Z] [INFO] [tr_6b7c8d9e0f1a2c] [acquirer-router] Routing transaction tx_332188 to processor: ICICI_RAILS_2
+[2026-07-04T13:39:20.710Z] [INFO] [tr_6b7c8d9e0f1a2c] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth55194
+[2026-07-04T13:39:20.725Z] [INFO] [tr_6b7c8d9e0f1a2c] [ledger-db] Transaction tx_332188 updated status to SUCCESS
+[2026-07-04T13:39:20.731Z] [INFO] [tr_6b7c8d9e0f1a2c] [api-router] Response 200 OK sent in 330ms
+[2026-07-04T13:39:35.002Z] [INFO] [tr_2d3e4f5a6b7c8f] [api-router] Incoming POST request /v1/charges from IP 157.44.112.5
+[2026-07-04T13:39:35.011Z] [INFO] [tr_2d3e4f5a6b7c8f] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:39:35.045Z] [INFO] [tr_2d3e4f5a6b7c8f] [token-service] Card tokenization successful for vault_id: vlt_1199aa
+[2026-07-04T13:39:35.060Z] [INFO] [tr_2d3e4f5a6b7c8f] [risk-engine] Fraud score calculated: 3. Risk level: LOW
+[2026-07-04T13:39:35.072Z] [INFO] [tr_2d3e4f5a6b7c8f] [acquirer-router] Routing transaction tx_332189 to processor: HDFC_RAILS_1
+[2026-07-04T13:39:35.312Z] [INFO] [tr_2d3e4f5a6b7c8f] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth00295
+[2026-07-04T13:39:35.325Z] [INFO] [tr_2d3e4f5a6b7c8f] [ledger-db] Transaction tx_332189 updated status to SUCCESS
+[2026-07-04T13:39:35.331Z] [INFO] [tr_2d3e4f5a6b7c8f] [api-router] Response 200 OK sent in 329ms
+[2026-07-04T13:39:45.104Z] [INFO] [tr_6f7a8b9c0d1e2a] [api-router] Incoming POST request /v1/charges from IP 115.112.40.45
+[2026-07-04T13:39:45.115Z] [INFO] [tr_6f7a8b9c0d1e2a] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:39:45.145Z] [INFO] [tr_6f7a8b9c0d1e2a] [token-service] Card tokenization successful for vault_id: vlt_4422aa
+[2026-07-04T13:39:45.160Z] [INFO] [tr_6f7a8b9c0d1e2a] [risk-engine] Fraud score calculated: 12. Risk level: LOW
+[2026-07-04T13:39:45.172Z] [INFO] [tr_6f7a8b9c0d1e2a] [acquirer-router] Routing transaction tx_332190 to processor: SBI_RAILS_1
+[2026-07-04T13:39:45.412Z] [INFO] [tr_6f7a8b9c0d1e2a] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth33210
+[2026-07-04T13:39:45.425Z] [INFO] [tr_6f7a8b9c0d1e2a] [ledger-db] Transaction tx_332190 updated status to SUCCESS
+[2026-07-04T13:39:45.430Z] [INFO] [tr_6f7a8b9c0d1e2a] [api-router] Response 200 OK sent in 326ms
+[2026-07-04T13:40:01.002Z] [INFO] [tr_0f1a2b3c4d5e6a] [api-router] Incoming POST request /v1/charges from IP 103.211.55.12
+[2026-07-04T13:40:01.011Z] [INFO] [tr_0f1a2b3c4d5e6a] [auth-validator] API Key verified for merchant: merch_live_99f82
+[2026-07-04T13:40:01.044Z] [INFO] [tr_0f1a2b3c4d5e6a] [token-service] Card tokenization successful for vault_id: vlt_3311aa
+[2026-07-04T13:40:01.060Z] [INFO] [tr_0f1a2b3c4d5e6a] [risk-engine] Fraud score calculated: 2. Risk level: LOW
+[2026-07-04T13:40:01.072Z] [INFO] [tr_0f1a2b3c4d5e6a] [acquirer-router] Routing transaction tx_332191 to processor: HDFC_RAILS_1
+[2026-07-04T13:40:01.320Z] [INFO] [tr_0f1a2b3c4d5e6a] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth00391
+[2026-07-04T13:40:01.332Z] [INFO] [tr_0f1a2b3c4d5e6a] [ledger-db] Transaction tx_332191 updated status to SUCCESS
+[2026-07-04T13:40:01.340Z] [INFO] [tr_0f1a2b3c4d5e6a] [api-router] Response 200 OK sent in 338ms
+[2026-07-04T13:40:05.110Z] [INFO] [tr_4b3c2d1e0f9a8a] [api-router] Incoming POST request /v1/charges from IP 157.44.189.9
+[2026-07-04T13:40:05.122Z] [INFO] [tr_4b3c2d1e0f9a8a] [auth-validator] API Key verified for merchant: merch_live_bb771
+[2026-07-04T13:40:05.155Z] [INFO] [tr_4b3c2d1e0f9a8a] [token-service] Card tokenization successful for vault_id: vlt_7722cc
+[2026-07-04T13:40:05.170Z] [INFO] [tr_4b3c2d1e0f9a8a] [risk-engine] Fraud score calculated: 15. Risk level: LOW
+[2026-07-04T13:40:05.182Z] [INFO] [tr_4b3c2d1e0f9a8a] [acquirer-router] Routing transaction tx_332192 to processor: ICICI_RAILS_2
+[2026-07-04T13:40:05.412Z] [INFO] [tr_4b3c2d1e0f9a8a] [acquirer-client] Upstream provider accepted charge. Authorization Code: Auth44102
+[2026-07-04T13:40:05.425Z] [INFO] [tr_4b3c2d1e0f9a8a] [ledger-db] Transaction tx_332192 updated status to SUCCESS
+[2026-07-04T13:40:05.430Z] [INFO] [tr_4b3c2d1e0f9a8a] [api-router] Response 200 OK sent in 320ms

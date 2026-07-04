@@ -1,0 +1,8 @@
+[2026-07-04T13:30:05.612Z] [ERROR] [tr_9f8e7d6c5b4a3b] [acquirer-client] Upstream refund failed. Reason: REFUND_AMOUNT_EXCEEDS_ORIGINAL_CHARGE
+[2026-07-04T13:30:08.922Z] [ERROR] [tr_4e5f6a7b8c9d0e] [token-service] Failed to decrypt payload. Corrupted payload or invalid initialization vector (IV)
+[2026-07-04T13:30:23.212Z] [ERROR] [tr_0b1c2d3e4f5a6b] [ledger-db] Database connection pool exhausted. Timeout waiting for connection after 3000ms
+[2026-07-04T13:32:20.075Z] [ERROR] [tr_9c8b7a6f5e4d3c] [acquirer-client] Upstream read timeout on connection to ICICI_RAILS_2. Limit of 5000ms exceeded
+[2026-07-04T13:32:44.890Z] [ERROR] [tr_2b3c4d5e6f7a8b] [acquirer-client] Upstream banking entity returned raw error code: ERR_INSUFFICIENT_FUNDS
+[2026-07-04T13:33:46.411Z] [ERROR] [tr_3d4e5f6a7b8c9d] [acquirer-client] Upstream banking network response error. Status: 500 Internal Server Error. Raw body: SYSTEM_MAINTENANCE
+[2026-07-04T13:34:19.412Z] [ERROR] [tr_4e5d6c7b8a9f0e] [acquirer-client] Upstream provider rejected charge. Status Code: 400. Sub-code: 3DS_REQUIRED_BY_ISSUER
+[2026-07-04T13:35:15.145Z] [ERROR] [tr_3c4d5e6f7a8b9c] [acquirer-router] Unsupported funding instrument type: CRYPTO_WALLET. Route execution aborted.
