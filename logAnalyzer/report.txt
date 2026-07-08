@@ -1,0 +1,53 @@
+Top 5 IP Addresses
+192.168.1.32: 21
+192.168.3.58: 20
+192.168.1.74: 19
+192.168.4.34: 19
+192.168.2.35: 18
+
+
+Top 10 URL
+/products: 134
+/home: 80
+/api/login: 51
+/orders: 47
+/cart: 42
+/category/electronics: 38
+/profile: 38
+/search?q=laptop: 35
+/api/cart/add: 33
+/api/payment: 31
+
+
+HTTP Request Type Distribution
+GET: 742
+POST: 166
+PUT: 32
+DELETE: 31
+PATCH: 26
+
+
+HTTP Status Code Distribution
+200: 689
+201: 51
+204: 17
+301: 19
+302: 16
+400: 33
+401: 29
+403: 27
+404: 84
+500: 32
+
+
+Average Response Size: 5246
+Total Requests: 997
+Total Response Size: 5231126
+Largest Response: 12499
+Smallest Response: 0
+
+
+Invalid Log Lines
+MALFORMED LOG ENTRY ???
+MALFORMED LOG ENTRY ???
+MALFORMED LOG ENTRY ???
