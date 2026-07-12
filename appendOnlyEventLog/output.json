@@ -1,0 +1,72 @@
+[
+	{
+		"ProductId": "PROD-1000",
+		"Quantity": 1890,
+		"Category": "Garden",
+		"Price": 82.36,
+		"IsDiscontinued": true
+	},
+	{
+		"ProductId": "PROD-1001",
+		"Quantity": 2710,
+		"Category": "Electronics",
+		"Price": 94.21,
+		"IsDiscontinued": true
+	},
+	{
+		"ProductId": "PROD-1002",
+		"Quantity": 2239,
+		"Category": "Garden",
+		"Price": 50.78,
+		"IsDiscontinued": true
+	},
+	{
+		"ProductId": "PROD-1003",
+		"Quantity": 1519,
+		"Category": "Toys",
+		"Price": 65.16,
+		"IsDiscontinued": true
+	},
+	{
+		"ProductId": "PROD-1004",
+		"Quantity": 1596,
+		"Category": "Home",
+		"Price": 113.71,
+		"IsDiscontinued": true
+	},
+	{
+		"ProductId": "PROD-1005",
+		"Quantity": 1531,
+		"Category": "Pets",
+		"Price": 30.92,
+		"IsDiscontinued": true
+	},
+	{
+		"ProductId": "PROD-1006",
+		"Quantity": 2494,
+		"Category": "Toys",
+		"Price": 26.81,
+		"IsDiscontinued": true
+	},
+	{
+		"ProductId": "PROD-1007",
+		"Quantity": 2376,
+		"Category": "Pets",
+		"Price": 7.66,
+		"IsDiscontinued": true
+	},
+	{
+		"ProductId": "PROD-1008",
+		"Quantity": 2497,
+		"Category": "Electronics",
+		"Price": 94.22,
+		"IsDiscontinued": true
+	},
+	{
+		"ProductId": "PROD-1009",
+		"Quantity": 2580,
+		"Category": "Pets",
+		"Price": 67.61,
+		"IsDiscontinued": true
+	}
+]
