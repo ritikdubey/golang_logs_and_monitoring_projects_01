@@ -1,0 +1,1207 @@
+2026-07-10 06:10:15 WARN  PaymentService         requestId=REQ-10000 Disk usage above 80%
+2026-07-10 05:07:39 WARN  InventoryService       requestId=REQ-10001 Cache miss ratio exceeded threshold
+2026-07-10 21:40:46 INFO  AuthService            requestId=REQ-10002 Scheduled job completed
+2026-07-10 17:22:49 INFO  AuthService            requestId=REQ-10003 Order created
+2026-07-10 13:43:49 INFO  NotificationService    requestId=REQ-10004 Request completed successfully
+2026-07-10 19:16:28 INFO  UserService            requestId=REQ-10005 Scheduled job completed
+2026-07-10 15:40:12 INFO  NotificationService    requestId=REQ-10006 Payment authorized
+2026-07-10 12:55:25 INFO  ShippingService        requestId=REQ-10007 Scheduled job completed
+2026-07-10 05:59:26 INFO  NotificationService    requestId=REQ-10008 Heartbeat received
+2026-07-10 20:02:11 INFO  InventoryService       requestId=REQ-10009 Payment authorized
+2026-07-10 16:14:37 INFO  ApiGateway             requestId=REQ-10010 Order created
+2026-07-10 12:01:08 INFO  UserService            requestId=REQ-10011 Session created
+2026-07-10 15:28:37 INFO  PaymentService         requestId=REQ-10012 Cache refreshed
+2026-07-10 09:04:39 INFO  PaymentService         requestId=REQ-10013 Request completed successfully
+2026-07-10 07:25:51 WARN  AuthService            requestId=REQ-10014 Slow database query detected
+2026-07-10 22:02:05 INFO  OrderService           requestId=REQ-10015 Scheduled job completed
+2026-07-10 15:21:34 INFO  ShippingService        requestId=REQ-10016 Scheduled job completed
+2026-07-10 02:49:48 WARN  AuthService            requestId=REQ-10017 High response time detected
+2026-07-10 16:32:07 INFO  OrderService           requestId=REQ-10018 Scheduled job completed
+2026-07-10 03:06:03 ERROR ShippingService        requestId=REQ-10019 Gateway timeout
+HTTP 504 Gateway Timeout
+2026-07-10 08:44:07 INFO  InventoryService       requestId=REQ-10020 Request completed successfully
+2026-07-10 03:50:41 INFO  AuthService            requestId=REQ-10021 User authenticated
+2026-07-10 15:45:22 ERROR NotificationService    requestId=REQ-10022 Downstream service unavailable
+java.net.ConnectException: Connection refused
+	at com.example.NotificationService.NotificationServiceImpl.process(NotificationServiceImpl.java:132)
+	at com.example.api.Controller.handle(Controller.java:44)
+2026-07-10 03:36:49 INFO  AuthService            requestId=REQ-10023 Request completed successfully
+2026-07-10 15:26:19 INFO  ReportingService       requestId=REQ-10024 Email sent
+2026-07-10 00:30:39 INFO  InventoryService       requestId=REQ-10025 Inventory synchronized
+2026-07-10 19:19:08 INFO  PaymentService         requestId=REQ-10026 Heartbeat received
+2026-07-10 19:21:38 DEBUG SearchService          requestId=REQ-10027 Calling downstream service
+2026-07-10 04:46:47 DEBUG NotificationService    requestId=REQ-10028 Serializing JSON
+2026-07-10 20:34:45 INFO  ShippingService        requestId=REQ-10029 Session created
+2026-07-10 20:46:37 DEBUG OrderService           requestId=REQ-10030 Serializing JSON
+2026-07-10 21:58:13 INFO  InventoryService       requestId=REQ-10031 Cache refreshed
+2026-07-10 08:10:43 INFO  ShippingService        requestId=REQ-10032 Request completed successfully
+2026-07-10 10:06:02 DEBUG ApiGateway             requestId=REQ-10033 Serializing JSON
+2026-07-10 19:54:47 INFO  ApiGateway             requestId=REQ-10034 Session created
+2026-07-10 04:01:25 INFO  ApiGateway             requestId=REQ-10035 Order created
+2026-07-10 23:43:12 INFO  ShippingService        requestId=REQ-10036 Inventory synchronized
+2026-07-10 07:04:18 INFO  InventoryService       requestId=REQ-10037 Inventory synchronized
+2026-07-10 18:16:12 INFO  SearchService          requestId=REQ-10038 Email sent
+2026-07-10 04:15:59 INFO  ApiGateway             requestId=REQ-10039 Payment authorized
+2026-07-10 12:02:54 INFO  ShippingService        requestId=REQ-10040 Scheduled job completed
+2026-07-10 18:34:03 INFO  ShippingService        requestId=REQ-10041 Scheduled job completed
+2026-07-10 21:08:46 INFO  PaymentService         requestId=REQ-10042 Payment authorized
+2026-07-10 01:57:34 WARN  ShippingService        requestId=REQ-10043 Cache miss ratio exceeded threshold
+2026-07-10 09:31:44 INFO  SearchService          requestId=REQ-10044 Scheduled job completed
+2026-07-10 13:36:27 INFO  ApiGateway             requestId=REQ-10045 Request completed successfully
+2026-07-10 20:03:16 DEBUG UserService            requestId=REQ-10046 Executing SQL query
+2026-07-10 22:15:16 DEBUG ShippingService        requestId=REQ-10047 Calling downstream service
+2026-07-10 13:06:06 INFO  UserService            requestId=REQ-10048 User authenticated
+2026-07-10 03:04:19 DEBUG NotificationService    requestId=REQ-10049 Serializing JSON
+2026-07-10 11:04:15 DEBUG NotificationService    requestId=REQ-10050 Retry attempt=1
+2026-07-10 18:23:41 INFO  ApiGateway             requestId=REQ-10051 Email sent
+2026-07-10 06:36:10 INFO  ReportingService       requestId=REQ-10052 Scheduled job completed
+2026-07-10 02:01:13 DEBUG ApiGateway             requestId=REQ-10053 Serializing JSON
+2026-07-10 05:40:03 INFO  AuthService            requestId=REQ-10054 Cache refreshed
+2026-07-10 06:39:36 INFO  AuthService            requestId=REQ-10055 Order created
+2026-07-10 12:59:06 WARN  AuthService            requestId=REQ-10056 Connection pool nearing capacity
+2026-07-10 23:32:36 INFO  NotificationService    requestId=REQ-10057 Email sent
+2026-07-10 08:40:09 ERROR PaymentService         requestId=REQ-10058 Database connection unavailable
+java.sql.SQLTransientConnectionException: Connection is not available
+	at com.example.PaymentService.PaymentServiceImpl.process(PaymentServiceImpl.java:126)
+	at com.example.api.Controller.handle(Controller.java:89)
+2026-07-10 13:21:22 DEBUG UserService            requestId=REQ-10059 Serializing JSON
+2026-07-10 18:30:16 INFO  PaymentService         requestId=REQ-10060 Payment authorized
+2026-07-10 14:49:24 INFO  ApiGateway             requestId=REQ-10061 Payment authorized
+2026-07-10 01:34:19 DEBUG InventoryService       requestId=REQ-10062 JWT validation started
+2026-07-10 19:53:53 DEBUG OrderService           requestId=REQ-10063 JWT validation started
+2026-07-10 01:13:19 WARN  ApiGateway             requestId=REQ-10064 Slow database query detected
+2026-07-10 23:06:53 INFO  ApiGateway             requestId=REQ-10065 Scheduled job completed
+2026-07-10 01:17:22 WARN  ShippingService        requestId=REQ-10066 High response time detected
+2026-07-10 20:39:06 INFO  ShippingService        requestId=REQ-10067 Order created
+2026-07-10 15:00:28 INFO  NotificationService    requestId=REQ-10068 Request completed successfully
+2026-07-10 07:11:49 INFO  PaymentService         requestId=REQ-10069 Email sent
+2026-07-10 13:39:21 INFO  NotificationService    requestId=REQ-10070 Scheduled job completed
+2026-07-10 06:34:47 INFO  ReportingService       requestId=REQ-10071 Payment authorized
+2026-07-10 17:25:12 INFO  ShippingService        requestId=REQ-10072 Order created
+2026-07-10 14:43:38 WARN  InventoryService       requestId=REQ-10073 Slow database query detected
+2026-07-10 06:59:04 INFO  InventoryService       requestId=REQ-10074 Heartbeat received
+2026-07-10 11:08:50 INFO  OrderService           requestId=REQ-10075 Scheduled job completed
+2026-07-10 22:46:30 DEBUG ApiGateway             requestId=REQ-10076 Executing SQL query
+2026-07-10 03:10:53 INFO  PaymentService         requestId=REQ-10077 Payment authorized
+2026-07-10 23:09:23 INFO  ApiGateway             requestId=REQ-10078 Cache refreshed
+2026-07-10 16:19:19 INFO  UserService            requestId=REQ-10079 Payment authorized
+2026-07-10 01:42:38 INFO  OrderService           requestId=REQ-10080 Request completed successfully
+2026-07-10 01:29:55 INFO  ApiGateway             requestId=REQ-10081 Heartbeat received
+2026-07-10 15:49:30 INFO  UserService            requestId=REQ-10082 Cache refreshed
+2026-07-10 14:53:43 INFO  PaymentService         requestId=REQ-10083 User authenticated
+2026-07-10 11:18:15 WARN  PaymentService         requestId=REQ-10084 Connection pool nearing capacity
+2026-07-10 01:49:12 INFO  AuthService            requestId=REQ-10085 Heartbeat received
+2026-07-10 15:43:00 WARN  InventoryService       requestId=REQ-10086 Disk usage above 80%
+2026-07-10 21:55:21 DEBUG OrderService           requestId=REQ-10087 Acquired DB connection
+2026-07-10 10:07:36 INFO  InventoryService       requestId=REQ-10088 Scheduled job completed
+2026-07-10 21:54:13 INFO  UserService            requestId=REQ-10089 Order created
+2026-07-10 07:45:42 INFO  PaymentService         requestId=REQ-10090 Cache refreshed
+2026-07-10 09:46:51 ERROR ReportingService       requestId=REQ-10091 Unexpected null reference
+java.lang.NullPointerException
+	at com.example.ReportingService.ReportingServiceImpl.process(ReportingServiceImpl.java:204)
+	at com.example.api.Controller.handle(Controller.java:42)
+2026-07-10 02:33:34 INFO  ReportingService       requestId=REQ-10092 Order created
+2026-07-10 03:43:04 INFO  NotificationService    requestId=REQ-10093 Email sent
+2026-07-10 15:15:07 INFO  PaymentService         requestId=REQ-10094 Request completed successfully
+2026-07-10 08:52:24 INFO  ApiGateway             requestId=REQ-10095 Scheduled job completed
+2026-07-10 07:19:03 WARN  ReportingService       requestId=REQ-10096 Slow database query detected
+2026-07-10 16:24:05 INFO  AuthService            requestId=REQ-10097 Order created
+2026-07-10 13:34:39 DEBUG PaymentService         requestId=REQ-10098 Cache lookup
+2026-07-10 01:20:19 INFO  PaymentService         requestId=REQ-10099 Scheduled job completed
+2026-07-10 02:45:28 INFO  ShippingService        requestId=REQ-10100 Session created
+2026-07-10 22:30:44 INFO  AuthService            requestId=REQ-10101 User authenticated
+2026-07-10 19:08:50 INFO  UserService            requestId=REQ-10102 Order created
+2026-07-10 10:55:35 DEBUG ApiGateway             requestId=REQ-10103 Serializing JSON
+2026-07-10 04:45:15 WARN  AuthService            requestId=REQ-10104 High response time detected
+2026-07-10 11:45:20 WARN  ReportingService       requestId=REQ-10105 Cache miss ratio exceeded threshold
+2026-07-10 21:24:28 INFO  OrderService           requestId=REQ-10106 Request completed successfully
+2026-07-10 20:00:01 WARN  ApiGateway             requestId=REQ-10107 Cache miss ratio exceeded threshold
+2026-07-10 04:14:05 DEBUG OrderService           requestId=REQ-10108 Acquired DB connection
+2026-07-10 07:39:28 INFO  SearchService          requestId=REQ-10109 Inventory synchronized
+2026-07-10 05:10:32 ERROR InventoryService       requestId=REQ-10110 Unexpected null reference
+java.lang.NullPointerException
+	at com.example.InventoryService.InventoryServiceImpl.process(InventoryServiceImpl.java:214)
+	at com.example.api.Controller.handle(Controller.java:22)
+2026-07-10 03:09:36 WARN  ShippingService        requestId=REQ-10111 Connection pool nearing capacity
+2026-07-10 20:51:59 INFO  ReportingService       requestId=REQ-10112 Session created
+2026-07-10 19:48:23 INFO  NotificationService    requestId=REQ-10113 Scheduled job completed
+2026-07-10 23:26:51 DEBUG ReportingService       requestId=REQ-10114 Building response payload
+2026-07-10 01:42:38 INFO  UserService            requestId=REQ-10115 Session created
+2026-07-10 10:44:54 INFO  SearchService          requestId=REQ-10116 Heartbeat received
+2026-07-10 22:40:51 DEBUG ApiGateway             requestId=REQ-10117 Cache lookup
+2026-07-10 06:52:49 INFO  ApiGateway             requestId=REQ-10118 Cache refreshed
+2026-07-10 12:01:18 INFO  ApiGateway             requestId=REQ-10119 User authenticated
+2026-07-10 00:00:19 WARN  NotificationService    requestId=REQ-10120 High response time detected
+2026-07-10 08:36:52 DEBUG ApiGateway             requestId=REQ-10121 JWT validation started
+2026-07-10 02:54:36 INFO  ReportingService       requestId=REQ-10122 Heartbeat received
+2026-07-10 15:42:25 INFO  ApiGateway             requestId=REQ-10123 User authenticated
+2026-07-10 15:33:39 WARN  ShippingService        requestId=REQ-10124 Slow database query detected
+2026-07-10 00:57:40 INFO  UserService            requestId=REQ-10125 Request completed successfully
+2026-07-10 08:40:33 INFO  InventoryService       requestId=REQ-10126 Heartbeat received
+2026-07-10 11:29:31 INFO  SearchService          requestId=REQ-10127 Heartbeat received
+2026-07-10 00:00:33 WARN  ReportingService       requestId=REQ-10128 Retrying failed request
+2026-07-10 10:06:39 INFO  PaymentService         requestId=REQ-10129 Order created
+2026-07-10 12:34:47 INFO  OrderService           requestId=REQ-10130 Email sent
+2026-07-10 00:09:44 ERROR AuthService            requestId=REQ-10131 Database connection unavailable
+java.sql.SQLTransientConnectionException: Connection is not available
+	at com.example.AuthService.AuthServiceImpl.process(AuthServiceImpl.java:181)
+	at com.example.api.Controller.handle(Controller.java:37)
+2026-07-10 03:28:31 INFO  AuthService            requestId=REQ-10132 Heartbeat received
+2026-07-10 00:22:11 INFO  OrderService           requestId=REQ-10133 Payment authorized
+2026-07-10 13:35:41 DEBUG OrderService           requestId=REQ-10134 Serializing JSON
+2026-07-10 07:47:11 DEBUG NotificationService    requestId=REQ-10135 Building response payload
+2026-07-10 06:57:02 INFO  OrderService           requestId=REQ-10136 Scheduled job completed
+2026-07-10 15:28:55 INFO  OrderService           requestId=REQ-10137 Heartbeat received
+2026-07-10 22:36:54 INFO  UserService            requestId=REQ-10138 Cache refreshed
+2026-07-10 15:41:46 WARN  UserService            requestId=REQ-10139 Slow database query detected
+2026-07-10 15:31:37 ERROR AuthService            requestId=REQ-10140 Broken client connection
+java.io.IOException: Broken pipe
+	at com.example.AuthService.AuthServiceImpl.process(AuthServiceImpl.java:211)
+	at com.example.api.Controller.handle(Controller.java:57)
+2026-07-10 16:40:45 INFO  UserService            requestId=REQ-10141 Session created
+2026-07-10 01:22:28 INFO  SearchService          requestId=REQ-10142 User authenticated
+2026-07-10 17:37:35 INFO  ApiGateway             requestId=REQ-10143 Request completed successfully
+2026-07-10 19:18:41 INFO  AuthService            requestId=REQ-10144 Cache refreshed
+2026-07-10 05:00:52 INFO  UserService            requestId=REQ-10145 Request completed successfully
+2026-07-10 13:19:22 INFO  PaymentService         requestId=REQ-10146 Order created
+2026-07-10 01:53:37 INFO  OrderService           requestId=REQ-10147 User authenticated
+2026-07-10 06:48:09 INFO  InventoryService       requestId=REQ-10148 Session created
+2026-07-10 14:27:29 ERROR SearchService          requestId=REQ-10149 Broken client connection
+java.io.IOException: Broken pipe
+	at com.example.SearchService.SearchServiceImpl.process(SearchServiceImpl.java:142)
+	at com.example.api.Controller.handle(Controller.java:23)
+2026-07-10 13:47:06 INFO  SearchService          requestId=REQ-10150 Scheduled job completed
+2026-07-10 22:00:17 DEBUG ApiGateway             requestId=REQ-10151 Acquired DB connection
+2026-07-10 06:02:14 WARN  InventoryService       requestId=REQ-10152 Disk usage above 80%
+2026-07-10 12:18:09 INFO  AuthService            requestId=REQ-10153 Heartbeat received
+2026-07-10 06:15:42 INFO  ReportingService       requestId=REQ-10154 Scheduled job completed
+2026-07-10 19:19:16 INFO  UserService            requestId=REQ-10155 Payment authorized
+2026-07-10 14:25:24 INFO  PaymentService         requestId=REQ-10156 Heartbeat received
+2026-07-10 06:00:03 INFO  ShippingService        requestId=REQ-10157 User authenticated
+2026-07-10 21:15:37 INFO  PaymentService         requestId=REQ-10158 Email sent
+2026-07-10 12:03:11 DEBUG NotificationService    requestId=REQ-10159 Calling downstream service
+2026-07-10 23:32:08 INFO  NotificationService    requestId=REQ-10160 Request completed successfully
+2026-07-10 01:49:16 INFO  ReportingService       requestId=REQ-10161 Session created
+2026-07-10 06:11:30 INFO  NotificationService    requestId=REQ-10162 Cache refreshed
+2026-07-10 14:21:13 FATAL OrderService           requestId=REQ-10163 Primary database unreachable
+FATAL Database unavailable
+Application terminating.
+2026-07-10 20:10:34 INFO  NotificationService    requestId=REQ-10164 Heartbeat received
+2026-07-10 10:56:12 WARN  SearchService          requestId=REQ-10165 Connection pool nearing capacity
+2026-07-10 03:23:23 DEBUG UserService            requestId=REQ-10166 Calling downstream service
+2026-07-10 19:10:42 INFO  InventoryService       requestId=REQ-10167 Payment authorized
+2026-07-10 20:16:16 INFO  AuthService            requestId=REQ-10168 Order created
+2026-07-10 12:35:14 DEBUG ReportingService       requestId=REQ-10169 Executing SQL query
+2026-07-10 20:24:21 INFO  UserService            requestId=REQ-10170 Payment authorized
+2026-07-10 08:00:11 DEBUG SearchService          requestId=REQ-10171 Acquired DB connection
+2026-07-10 19:37:57 INFO  SearchService          requestId=REQ-10172 Scheduled job completed
+2026-07-10 10:52:30 ERROR SearchService          requestId=REQ-10173 Downstream service unavailable
+java.net.ConnectException: Connection refused
+	at com.example.SearchService.SearchServiceImpl.process(SearchServiceImpl.java:119)
+	at com.example.api.Controller.handle(Controller.java:71)
+2026-07-10 08:33:50 INFO  NotificationService    requestId=REQ-10174 Inventory synchronized
+2026-07-10 09:58:13 DEBUG ReportingService       requestId=REQ-10175 Acquired DB connection
+2026-07-10 19:24:58 INFO  ReportingService       requestId=REQ-10176 Scheduled job completed
+2026-07-10 06:46:44 INFO  NotificationService    requestId=REQ-10177 Scheduled job completed
+2026-07-10 09:50:39 INFO  InventoryService       requestId=REQ-10178 Email sent
+2026-07-10 22:16:38 DEBUG ReportingService       requestId=REQ-10179 Calling downstream service
+2026-07-10 21:07:53 INFO  OrderService           requestId=REQ-10180 Heartbeat received
+2026-07-10 06:19:02 WARN  UserService            requestId=REQ-10181 Disk usage above 80%
+2026-07-10 14:18:20 INFO  InventoryService       requestId=REQ-10182 Session created
+2026-07-10 05:29:29 DEBUG InventoryService       requestId=REQ-10183 JWT validation started
+2026-07-10 04:30:36 INFO  NotificationService    requestId=REQ-10184 Session created
+2026-07-10 11:06:45 INFO  ShippingService        requestId=REQ-10185 Cache refreshed
+2026-07-10 10:38:21 ERROR AuthService            requestId=REQ-10186 Broken client connection
+java.io.IOException: Broken pipe
+	at com.example.AuthService.AuthServiceImpl.process(AuthServiceImpl.java:205)
+	at com.example.api.Controller.handle(Controller.java:69)
+2026-07-10 08:31:53 DEBUG ReportingService       requestId=REQ-10187 JWT validation started
+2026-07-10 20:15:23 DEBUG OrderService           requestId=REQ-10188 Serializing JSON
+2026-07-10 07:10:03 INFO  ReportingService       requestId=REQ-10189 Inventory synchronized
+2026-07-10 00:13:43 DEBUG AuthService            requestId=REQ-10190 Building response payload
+2026-07-10 15:40:19 INFO  NotificationService    requestId=REQ-10191 Inventory synchronized
+2026-07-10 00:16:55 INFO  SearchService          requestId=REQ-10192 Order created
+2026-07-10 22:12:02 DEBUG PaymentService         requestId=REQ-10193 Retry attempt=1
+2026-07-10 18:12:52 INFO  UserService            requestId=REQ-10194 Scheduled job completed
+2026-07-10 18:11:39 INFO  UserService            requestId=REQ-10195 Payment authorized
+2026-07-10 16:13:54 DEBUG ShippingService        requestId=REQ-10196 JWT validation started
+2026-07-10 03:41:35 FATAL AuthService            requestId=REQ-10197 Application shutting down
+java.lang.OutOfMemoryError: Java heap space
+Application terminating.
+2026-07-10 21:56:06 WARN  ApiGateway             requestId=REQ-10198 Disk usage above 80%
+2026-07-10 06:30:05 INFO  AuthService            requestId=REQ-10199 Cache refreshed
+2026-07-10 11:45:31 INFO  ReportingService       requestId=REQ-10200 Session created
+2026-07-10 10:02:12 ERROR AuthService            requestId=REQ-10201 Database connection unavailable
+java.sql.SQLTransientConnectionException: Connection is not available
+	at com.example.AuthService.AuthServiceImpl.process(AuthServiceImpl.java:109)
+	at com.example.api.Controller.handle(Controller.java:57)
+2026-07-10 09:31:11 INFO  InventoryService       requestId=REQ-10202 Inventory synchronized
+2026-07-10 13:35:15 WARN  OrderService           requestId=REQ-10203 Slow database query detected
+2026-07-10 01:31:05 INFO  SearchService          requestId=REQ-10204 Heartbeat received
+2026-07-10 21:00:14 WARN  ShippingService        requestId=REQ-10205 Slow database query detected
+2026-07-10 01:34:01 WARN  InventoryService       requestId=REQ-10206 Cache miss ratio exceeded threshold
+2026-07-10 01:06:51 INFO  UserService            requestId=REQ-10207 Scheduled job completed
+2026-07-10 21:26:47 INFO  ReportingService       requestId=REQ-10208 Order created
+2026-07-10 19:24:02 INFO  PaymentService         requestId=REQ-10209 Payment authorized
+2026-07-10 21:39:59 DEBUG ShippingService        requestId=REQ-10210 JWT validation started
+2026-07-10 11:40:07 INFO  ShippingService        requestId=REQ-10211 Session created
+2026-07-10 11:37:09 ERROR OrderService           requestId=REQ-10212 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.OrderService.OrderServiceImpl.process(OrderServiceImpl.java:73)
+	at com.example.api.Controller.handle(Controller.java:64)
+2026-07-10 02:35:15 INFO  ReportingService       requestId=REQ-10213 Payment authorized
+2026-07-10 01:29:07 INFO  NotificationService    requestId=REQ-10214 Session created
+2026-07-10 23:34:15 WARN  AuthService            requestId=REQ-10215 High response time detected
+2026-07-10 14:39:24 DEBUG ShippingService        requestId=REQ-10216 Executing SQL query
+2026-07-10 14:40:47 INFO  InventoryService       requestId=REQ-10217 Inventory synchronized
+2026-07-10 16:55:40 INFO  OrderService           requestId=REQ-10218 Request completed successfully
+2026-07-10 06:43:27 WARN  ShippingService        requestId=REQ-10219 High response time detected
+2026-07-10 19:50:41 ERROR SearchService          requestId=REQ-10220 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.SearchService.SearchServiceImpl.process(SearchServiceImpl.java:102)
+	at com.example.api.Controller.handle(Controller.java:31)
+2026-07-10 10:37:20 WARN  ReportingService       requestId=REQ-10221 Disk usage above 80%
+2026-07-10 12:36:32 INFO  AuthService            requestId=REQ-10222 Heartbeat received
+2026-07-10 13:07:24 ERROR SearchService          requestId=REQ-10223 Broken client connection
+java.io.IOException: Broken pipe
+	at com.example.SearchService.SearchServiceImpl.process(SearchServiceImpl.java:46)
+	at com.example.api.Controller.handle(Controller.java:76)
+2026-07-10 13:29:18 INFO  ApiGateway             requestId=REQ-10224 Inventory synchronized
+2026-07-10 12:50:15 INFO  InventoryService       requestId=REQ-10225 Heartbeat received
+2026-07-10 02:45:03 DEBUG ShippingService        requestId=REQ-10226 Executing SQL query
+2026-07-10 17:49:09 ERROR SearchService          requestId=REQ-10227 Database connection unavailable
+java.sql.SQLTransientConnectionException: Connection is not available
+	at com.example.SearchService.SearchServiceImpl.process(SearchServiceImpl.java:127)
+	at com.example.api.Controller.handle(Controller.java:23)
+2026-07-10 09:07:01 WARN  ShippingService        requestId=REQ-10228 Connection pool nearing capacity
+2026-07-10 16:21:48 INFO  PaymentService         requestId=REQ-10229 Payment authorized
+2026-07-10 02:22:56 INFO  SearchService          requestId=REQ-10230 User authenticated
+2026-07-10 13:35:30 INFO  ReportingService       requestId=REQ-10231 Request completed successfully
+2026-07-10 20:37:24 INFO  NotificationService    requestId=REQ-10232 User authenticated
+2026-07-10 14:24:41 DEBUG ApiGateway             requestId=REQ-10233 Retry attempt=1
+2026-07-10 08:55:18 INFO  UserService            requestId=REQ-10234 Cache refreshed
+2026-07-10 00:53:20 INFO  PaymentService         requestId=REQ-10235 Inventory synchronized
+2026-07-10 05:57:08 INFO  NotificationService    requestId=REQ-10236 Scheduled job completed
+2026-07-10 13:07:54 INFO  AuthService            requestId=REQ-10237 Heartbeat received
+2026-07-10 00:04:18 WARN  InventoryService       requestId=REQ-10238 Slow database query detected
+2026-07-10 04:40:21 INFO  OrderService           requestId=REQ-10239 Request completed successfully
+2026-07-10 04:55:31 WARN  NotificationService    requestId=REQ-10240 High response time detected
+2026-07-10 19:53:47 INFO  ShippingService        requestId=REQ-10241 Cache refreshed
+2026-07-10 01:13:03 INFO  UserService            requestId=REQ-10242 Scheduled job completed
+2026-07-10 23:55:06 DEBUG SearchService          requestId=REQ-10243 Acquired DB connection
+2026-07-10 04:19:26 INFO  OrderService           requestId=REQ-10244 Email sent
+2026-07-10 20:43:16 WARN  AuthService            requestId=REQ-10245 Retrying failed request
+2026-07-10 14:22:51 INFO  ApiGateway             requestId=REQ-10246 Heartbeat received
+2026-07-10 11:49:03 DEBUG ShippingService        requestId=REQ-10247 Calling downstream service
+2026-07-10 06:42:27 WARN  PaymentService         requestId=REQ-10248 Connection pool nearing capacity
+2026-07-10 04:21:00 WARN  ShippingService        requestId=REQ-10249 Disk usage above 80%
+2026-07-10 22:45:59 INFO  UserService            requestId=REQ-10250 Email sent
+2026-07-10 06:04:49 INFO  UserService            requestId=REQ-10251 Request completed successfully
+2026-07-10 14:32:27 INFO  OrderService           requestId=REQ-10252 User authenticated
+2026-07-10 12:11:33 INFO  SearchService          requestId=REQ-10253 Email sent
+2026-07-10 11:56:03 DEBUG NotificationService    requestId=REQ-10254 Executing SQL query
+2026-07-10 12:45:19 INFO  SearchService          requestId=REQ-10255 Order created
+2026-07-10 05:19:08 INFO  NotificationService    requestId=REQ-10256 Order created
+2026-07-10 04:30:43 INFO  ReportingService       requestId=REQ-10257 Session created
+2026-07-10 00:24:28 INFO  ShippingService        requestId=REQ-10258 Heartbeat received
+2026-07-10 01:44:35 INFO  NotificationService    requestId=REQ-10259 Session created
+2026-07-10 03:00:51 INFO  PaymentService         requestId=REQ-10260 Request completed successfully
+2026-07-10 20:10:17 INFO  UserService            requestId=REQ-10261 Payment authorized
+2026-07-10 08:07:04 INFO  UserService            requestId=REQ-10262 Inventory synchronized
+2026-07-10 04:40:43 DEBUG UserService            requestId=REQ-10263 Retry attempt=1
+2026-07-10 02:53:37 DEBUG OrderService           requestId=REQ-10264 Acquired DB connection
+2026-07-10 13:28:06 DEBUG SearchService          requestId=REQ-10265 Serializing JSON
+2026-07-10 09:27:12 DEBUG SearchService          requestId=REQ-10266 Retry attempt=1
+2026-07-10 11:32:18 INFO  PaymentService         requestId=REQ-10267 Scheduled job completed
+2026-07-10 21:42:00 INFO  InventoryService       requestId=REQ-10268 Payment authorized
+2026-07-10 00:04:10 ERROR AuthService            requestId=REQ-10269 Unexpected null reference
+java.lang.NullPointerException
+	at com.example.AuthService.AuthServiceImpl.process(AuthServiceImpl.java:137)
+	at com.example.api.Controller.handle(Controller.java:54)
+2026-07-10 15:15:46 INFO  NotificationService    requestId=REQ-10270 Email sent
+2026-07-10 06:39:35 WARN  OrderService           requestId=REQ-10271 High response time detected
+2026-07-10 00:04:33 DEBUG OrderService           requestId=REQ-10272 Serializing JSON
+2026-07-10 11:58:50 INFO  UserService            requestId=REQ-10273 Heartbeat received
+2026-07-10 13:01:47 DEBUG ApiGateway             requestId=REQ-10274 Executing SQL query
+2026-07-10 03:31:47 INFO  ReportingService       requestId=REQ-10275 User authenticated
+2026-07-10 05:29:09 INFO  OrderService           requestId=REQ-10276 Heartbeat received
+2026-07-10 19:56:08 ERROR ApiGateway             requestId=REQ-10277 Broken client connection
+java.io.IOException: Broken pipe
+	at com.example.ApiGateway.ApiGatewayImpl.process(ApiGatewayImpl.java:52)
+	at com.example.api.Controller.handle(Controller.java:60)
+2026-07-10 10:28:55 DEBUG ReportingService       requestId=REQ-10278 Building response payload
+2026-07-10 19:19:34 INFO  SearchService          requestId=REQ-10279 Order created
+2026-07-10 17:18:05 WARN  UserService            requestId=REQ-10280 High response time detected
+2026-07-10 15:01:30 DEBUG InventoryService       requestId=REQ-10281 Acquired DB connection
+2026-07-10 10:38:57 ERROR PaymentService         requestId=REQ-10282 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.PaymentService.PaymentServiceImpl.process(PaymentServiceImpl.java:212)
+	at com.example.api.Controller.handle(Controller.java:25)
+2026-07-10 22:27:37 INFO  ApiGateway             requestId=REQ-10283 Session created
+2026-07-10 04:33:48 INFO  ReportingService       requestId=REQ-10284 Session created
+2026-07-10 19:05:17 INFO  SearchService          requestId=REQ-10285 Scheduled job completed
+2026-07-10 02:37:51 DEBUG InventoryService       requestId=REQ-10286 Building response payload
+2026-07-10 03:05:48 INFO  ApiGateway             requestId=REQ-10287 Scheduled job completed
+2026-07-10 01:50:29 DEBUG InventoryService       requestId=REQ-10288 JWT validation started
+2026-07-10 08:49:59 INFO  PaymentService         requestId=REQ-10289 Cache refreshed
+2026-07-10 16:04:52 INFO  ApiGateway             requestId=REQ-10290 Request completed successfully
+2026-07-10 00:04:14 DEBUG AuthService            requestId=REQ-10291 Retry attempt=1
+2026-07-10 16:03:23 INFO  SearchService          requestId=REQ-10292 Heartbeat received
+2026-07-10 01:36:00 ERROR ShippingService        requestId=REQ-10293 Broken client connection
+java.io.IOException: Broken pipe
+	at com.example.ShippingService.ShippingServiceImpl.process(ShippingServiceImpl.java:107)
+	at com.example.api.Controller.handle(Controller.java:47)
+2026-07-10 01:55:05 DEBUG PaymentService         requestId=REQ-10294 Retry attempt=1
+2026-07-10 04:06:09 INFO  ApiGateway             requestId=REQ-10295 Order created
+2026-07-10 06:14:42 INFO  UserService            requestId=REQ-10296 Session created
+2026-07-10 23:46:18 INFO  InventoryService       requestId=REQ-10297 Request completed successfully
+2026-07-10 19:58:34 INFO  OrderService           requestId=REQ-10298 User authenticated
+2026-07-10 17:26:06 WARN  SearchService          requestId=REQ-10299 High response time detected
+2026-07-10 05:55:23 ERROR InventoryService       requestId=REQ-10300 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.InventoryService.InventoryServiceImpl.process(InventoryServiceImpl.java:98)
+	at com.example.api.Controller.handle(Controller.java:31)
+2026-07-10 22:12:28 INFO  NotificationService    requestId=REQ-10301 Session created
+2026-07-10 19:46:25 WARN  AuthService            requestId=REQ-10302 Cache miss ratio exceeded threshold
+2026-07-10 20:55:56 INFO  ReportingService       requestId=REQ-10303 User authenticated
+2026-07-10 11:23:00 INFO  ApiGateway             requestId=REQ-10304 Cache refreshed
+2026-07-10 21:45:49 ERROR ReportingService       requestId=REQ-10305 Invalid JWT token
+HTTP 401 Unauthorized
+2026-07-10 13:38:10 INFO  ReportingService       requestId=REQ-10306 Payment authorized
+2026-07-10 11:46:35 WARN  AuthService            requestId=REQ-10307 Connection pool nearing capacity
+2026-07-10 00:59:50 DEBUG ShippingService        requestId=REQ-10308 Cache lookup
+2026-07-10 14:13:46 WARN  OrderService           requestId=REQ-10309 Disk usage above 80%
+2026-07-10 01:16:52 INFO  PaymentService         requestId=REQ-10310 Cache refreshed
+2026-07-10 13:32:31 INFO  ReportingService       requestId=REQ-10311 Session created
+2026-07-10 19:26:20 INFO  InventoryService       requestId=REQ-10312 Request completed successfully
+2026-07-10 03:01:27 ERROR UserService            requestId=REQ-10313 Downstream service unavailable
+java.net.ConnectException: Connection refused
+	at com.example.UserService.UserServiceImpl.process(UserServiceImpl.java:75)
+	at com.example.api.Controller.handle(Controller.java:76)
+2026-07-10 20:43:30 INFO  ApiGateway             requestId=REQ-10314 User authenticated
+2026-07-10 04:37:15 DEBUG ApiGateway             requestId=REQ-10315 Serializing JSON
+2026-07-10 00:26:43 DEBUG OrderService           requestId=REQ-10316 Cache lookup
+2026-07-10 08:18:26 WARN  AuthService            requestId=REQ-10317 Cache miss ratio exceeded threshold
+2026-07-10 19:28:30 INFO  ShippingService        requestId=REQ-10318 Email sent
+2026-07-10 13:12:48 DEBUG NotificationService    requestId=REQ-10319 Building response payload
+2026-07-10 17:47:08 INFO  NotificationService    requestId=REQ-10320 Email sent
+2026-07-10 23:49:35 ERROR SearchService          requestId=REQ-10321 Downstream service unavailable
+java.net.ConnectException: Connection refused
+	at com.example.SearchService.SearchServiceImpl.process(SearchServiceImpl.java:99)
+	at com.example.api.Controller.handle(Controller.java:21)
+2026-07-10 22:03:38 INFO  PaymentService         requestId=REQ-10322 Scheduled job completed
+2026-07-10 05:34:01 INFO  AuthService            requestId=REQ-10323 Request completed successfully
+2026-07-10 01:52:58 WARN  ApiGateway             requestId=REQ-10324 Slow database query detected
+2026-07-10 22:41:23 INFO  NotificationService    requestId=REQ-10325 Payment authorized
+2026-07-10 03:15:11 INFO  NotificationService    requestId=REQ-10326 Scheduled job completed
+2026-07-10 21:43:08 ERROR PaymentService         requestId=REQ-10327 Downstream service unavailable
+java.net.ConnectException: Connection refused
+	at com.example.PaymentService.PaymentServiceImpl.process(PaymentServiceImpl.java:211)
+	at com.example.api.Controller.handle(Controller.java:77)
+2026-07-10 22:07:07 DEBUG ApiGateway             requestId=REQ-10328 Serializing JSON
+2026-07-10 10:11:59 INFO  OrderService           requestId=REQ-10329 Heartbeat received
+2026-07-10 13:37:11 INFO  SearchService          requestId=REQ-10330 Inventory synchronized
+2026-07-10 13:06:33 WARN  PaymentService         requestId=REQ-10331 Cache miss ratio exceeded threshold
+2026-07-10 16:00:19 INFO  UserService            requestId=REQ-10332 Scheduled job completed
+2026-07-10 03:23:22 INFO  UserService            requestId=REQ-10333 Scheduled job completed
+2026-07-10 04:37:58 WARN  NotificationService    requestId=REQ-10334 Disk usage above 80%
+2026-07-10 21:58:46 INFO  UserService            requestId=REQ-10335 Inventory synchronized
+2026-07-10 02:45:09 DEBUG InventoryService       requestId=REQ-10336 Building response payload
+2026-07-10 06:09:22 INFO  InventoryService       requestId=REQ-10337 Request completed successfully
+2026-07-10 19:18:53 INFO  OrderService           requestId=REQ-10338 User authenticated
+2026-07-10 03:18:16 INFO  ApiGateway             requestId=REQ-10339 Heartbeat received
+2026-07-10 21:55:56 INFO  AuthService            requestId=REQ-10340 Heartbeat received
+2026-07-10 07:38:33 INFO  OrderService           requestId=REQ-10341 Heartbeat received
+2026-07-10 06:03:12 WARN  ShippingService        requestId=REQ-10342 Disk usage above 80%
+2026-07-10 23:39:00 WARN  SearchService          requestId=REQ-10343 Cache miss ratio exceeded threshold
+2026-07-10 00:04:35 INFO  NotificationService    requestId=REQ-10344 Request completed successfully
+2026-07-10 16:47:47 ERROR ReportingService       requestId=REQ-10345 Unexpected null reference
+java.lang.NullPointerException
+	at com.example.ReportingService.ReportingServiceImpl.process(ReportingServiceImpl.java:196)
+	at com.example.api.Controller.handle(Controller.java:75)
+2026-07-10 07:00:01 INFO  PaymentService         requestId=REQ-10346 User authenticated
+2026-07-10 23:47:55 DEBUG PaymentService         requestId=REQ-10347 Calling downstream service
+2026-07-10 05:58:53 INFO  ReportingService       requestId=REQ-10348 Heartbeat received
+2026-07-10 18:56:07 DEBUG OrderService           requestId=REQ-10349 JWT validation started
+2026-07-10 15:06:14 INFO  ReportingService       requestId=REQ-10350 Request completed successfully
+2026-07-10 07:15:18 INFO  PaymentService         requestId=REQ-10351 User authenticated
+2026-07-10 07:09:12 DEBUG ShippingService        requestId=REQ-10352 Cache lookup
+2026-07-10 04:14:37 ERROR AuthService            requestId=REQ-10353 Unexpected null reference
+java.lang.NullPointerException
+	at com.example.AuthService.AuthServiceImpl.process(AuthServiceImpl.java:215)
+	at com.example.api.Controller.handle(Controller.java:70)
+2026-07-10 22:01:10 INFO  ReportingService       requestId=REQ-10354 Payment authorized
+2026-07-10 05:58:21 DEBUG InventoryService       requestId=REQ-10355 Cache lookup
+2026-07-10 03:42:59 INFO  SearchService          requestId=REQ-10356 Payment authorized
+2026-07-10 07:41:32 INFO  ApiGateway             requestId=REQ-10357 Heartbeat received
+2026-07-10 08:46:11 INFO  InventoryService       requestId=REQ-10358 Payment authorized
+2026-07-10 05:15:52 INFO  NotificationService    requestId=REQ-10359 Email sent
+2026-07-10 18:37:48 WARN  ApiGateway             requestId=REQ-10360 Retrying failed request
+2026-07-10 05:18:38 DEBUG NotificationService    requestId=REQ-10361 Executing SQL query
+2026-07-10 16:53:28 INFO  ApiGateway             requestId=REQ-10362 Email sent
+2026-07-10 09:21:40 INFO  ShippingService        requestId=REQ-10363 Session created
+2026-07-10 21:39:28 INFO  SearchService          requestId=REQ-10364 Payment authorized
+2026-07-10 14:19:58 INFO  InventoryService       requestId=REQ-10365 Request completed successfully
+2026-07-10 07:12:55 DEBUG InventoryService       requestId=REQ-10366 Building response payload
+2026-07-10 10:16:30 INFO  InventoryService       requestId=REQ-10367 Heartbeat received
+2026-07-10 19:25:49 INFO  PaymentService         requestId=REQ-10368 Request completed successfully
+2026-07-10 21:53:50 INFO  ShippingService        requestId=REQ-10369 Payment authorized
+2026-07-10 20:02:48 DEBUG AuthService            requestId=REQ-10370 Acquired DB connection
+2026-07-10 14:06:25 INFO  NotificationService    requestId=REQ-10371 Inventory synchronized
+2026-07-10 11:12:26 INFO  InventoryService       requestId=REQ-10372 Inventory synchronized
+2026-07-10 07:45:43 INFO  NotificationService    requestId=REQ-10373 Email sent
+2026-07-10 15:33:10 INFO  OrderService           requestId=REQ-10374 Email sent
+2026-07-10 01:23:13 INFO  UserService            requestId=REQ-10375 Session created
+2026-07-10 16:54:29 INFO  SearchService          requestId=REQ-10376 Scheduled job completed
+2026-07-10 10:39:37 WARN  AuthService            requestId=REQ-10377 Retrying failed request
+2026-07-10 13:13:00 INFO  ApiGateway             requestId=REQ-10378 Session created
+2026-07-10 07:04:05 ERROR OrderService           requestId=REQ-10379 Database connection unavailable
+java.sql.SQLTransientConnectionException: Connection is not available
+	at com.example.OrderService.OrderServiceImpl.process(OrderServiceImpl.java:65)
+	at com.example.api.Controller.handle(Controller.java:27)
+2026-07-10 02:12:56 ERROR AuthService            requestId=REQ-10380 Downstream service unavailable
+java.net.ConnectException: Connection refused
+	at com.example.AuthService.AuthServiceImpl.process(AuthServiceImpl.java:181)
+	at com.example.api.Controller.handle(Controller.java:27)
+2026-07-10 21:06:49 WARN  SearchService          requestId=REQ-10381 Disk usage above 80%
+2026-07-10 12:31:28 INFO  NotificationService    requestId=REQ-10382 Cache refreshed
+2026-07-10 12:14:51 DEBUG PaymentService         requestId=REQ-10383 Calling downstream service
+2026-07-10 19:39:04 INFO  ShippingService        requestId=REQ-10384 Order created
+2026-07-10 05:20:25 INFO  ReportingService       requestId=REQ-10385 Inventory synchronized
+2026-07-10 18:24:51 WARN  ShippingService        requestId=REQ-10386 Cache miss ratio exceeded threshold
+2026-07-10 22:48:37 INFO  ReportingService       requestId=REQ-10387 Session created
+2026-07-10 04:33:29 WARN  InventoryService       requestId=REQ-10388 Retrying failed request
+2026-07-10 17:14:56 INFO  AuthService            requestId=REQ-10389 Order created
+2026-07-10 17:28:40 DEBUG PaymentService         requestId=REQ-10390 Cache lookup
+2026-07-10 19:01:43 DEBUG InventoryService       requestId=REQ-10391 Executing SQL query
+2026-07-10 01:39:52 INFO  ApiGateway             requestId=REQ-10392 Email sent
+2026-07-10 17:29:22 INFO  AuthService            requestId=REQ-10393 Session created
+2026-07-10 21:12:48 WARN  SearchService          requestId=REQ-10394 Disk usage above 80%
+2026-07-10 15:18:25 INFO  SearchService          requestId=REQ-10395 Email sent
+2026-07-10 05:32:46 INFO  ShippingService        requestId=REQ-10396 Payment authorized
+2026-07-10 04:28:39 INFO  UserService            requestId=REQ-10397 Payment authorized
+2026-07-10 02:18:27 INFO  SearchService          requestId=REQ-10398 Email sent
+2026-07-10 12:02:24 INFO  UserService            requestId=REQ-10399 Cache refreshed
+2026-07-10 15:44:22 WARN  ShippingService        requestId=REQ-10400 Slow database query detected
+2026-07-10 14:18:50 INFO  ApiGateway             requestId=REQ-10401 Request completed successfully
+2026-07-10 10:12:10 INFO  NotificationService    requestId=REQ-10402 User authenticated
+2026-07-10 17:38:24 DEBUG ApiGateway             requestId=REQ-10403 Cache lookup
+2026-07-10 12:08:53 ERROR OrderService           requestId=REQ-10404 Unexpected null reference
+java.lang.NullPointerException
+	at com.example.OrderService.OrderServiceImpl.process(OrderServiceImpl.java:146)
+	at com.example.api.Controller.handle(Controller.java:57)
+2026-07-10 03:13:35 ERROR InventoryService       requestId=REQ-10405 Gateway timeout
+HTTP 504 Gateway Timeout
+2026-07-10 20:42:38 DEBUG UserService            requestId=REQ-10406 JWT validation started
+2026-07-10 18:48:17 INFO  InventoryService       requestId=REQ-10407 Heartbeat received
+2026-07-10 01:34:15 INFO  ApiGateway             requestId=REQ-10408 Email sent
+2026-07-10 16:27:34 DEBUG ShippingService        requestId=REQ-10409 Building response payload
+2026-07-10 08:32:16 INFO  InventoryService       requestId=REQ-10410 Cache refreshed
+2026-07-10 18:41:04 DEBUG PaymentService         requestId=REQ-10411 JWT validation started
+2026-07-10 18:08:59 INFO  ShippingService        requestId=REQ-10412 Session created
+2026-07-10 22:31:38 DEBUG OrderService           requestId=REQ-10413 Calling downstream service
+2026-07-10 16:25:07 INFO  PaymentService         requestId=REQ-10414 Session created
+2026-07-10 23:57:58 DEBUG NotificationService    requestId=REQ-10415 Executing SQL query
+2026-07-10 22:32:03 INFO  AuthService            requestId=REQ-10416 Email sent
+2026-07-10 13:11:30 INFO  InventoryService       requestId=REQ-10417 User authenticated
+2026-07-10 13:35:05 INFO  PaymentService         requestId=REQ-10418 Inventory synchronized
+2026-07-10 04:34:01 INFO  ApiGateway             requestId=REQ-10419 Request completed successfully
+2026-07-10 03:00:58 INFO  ShippingService        requestId=REQ-10420 Email sent
+2026-07-10 12:39:10 INFO  ApiGateway             requestId=REQ-10421 Heartbeat received
+2026-07-10 05:52:02 INFO  ShippingService        requestId=REQ-10422 Payment authorized
+2026-07-10 15:28:04 INFO  NotificationService    requestId=REQ-10423 User authenticated
+2026-07-10 20:04:23 INFO  AuthService            requestId=REQ-10424 Scheduled job completed
+2026-07-10 09:02:00 INFO  OrderService           requestId=REQ-10425 Payment authorized
+2026-07-10 11:08:26 INFO  ReportingService       requestId=REQ-10426 Session created
+2026-07-10 15:51:25 WARN  InventoryService       requestId=REQ-10427 Disk usage above 80%
+2026-07-10 01:07:22 ERROR ApiGateway             requestId=REQ-10428 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.ApiGateway.ApiGatewayImpl.process(ApiGatewayImpl.java:198)
+	at com.example.api.Controller.handle(Controller.java:38)
+2026-07-10 23:38:18 INFO  InventoryService       requestId=REQ-10429 Scheduled job completed
+2026-07-10 13:30:50 WARN  PaymentService         requestId=REQ-10430 Cache miss ratio exceeded threshold
+2026-07-10 16:44:03 INFO  NotificationService    requestId=REQ-10431 Payment authorized
+2026-07-10 00:03:45 INFO  ShippingService        requestId=REQ-10432 Inventory synchronized
+2026-07-10 22:31:33 INFO  OrderService           requestId=REQ-10433 Heartbeat received
+2026-07-10 14:11:08 INFO  ApiGateway             requestId=REQ-10434 User authenticated
+2026-07-10 12:03:10 INFO  ReportingService       requestId=REQ-10435 Email sent
+2026-07-10 12:38:30 DEBUG ReportingService       requestId=REQ-10436 Cache lookup
+2026-07-10 19:36:23 INFO  ShippingService        requestId=REQ-10437 Heartbeat received
+2026-07-10 01:23:20 INFO  OrderService           requestId=REQ-10438 Cache refreshed
+2026-07-10 07:45:43 WARN  ShippingService        requestId=REQ-10439 Slow database query detected
+2026-07-10 22:18:37 INFO  PaymentService         requestId=REQ-10440 Scheduled job completed
+2026-07-10 11:39:21 WARN  SearchService          requestId=REQ-10441 Cache miss ratio exceeded threshold
+2026-07-10 07:50:11 WARN  AuthService            requestId=REQ-10442 High response time detected
+2026-07-10 14:04:04 INFO  AuthService            requestId=REQ-10443 Cache refreshed
+2026-07-10 15:54:53 WARN  OrderService           requestId=REQ-10444 Cache miss ratio exceeded threshold
+2026-07-10 13:56:18 INFO  ApiGateway             requestId=REQ-10445 User authenticated
+2026-07-10 16:06:35 DEBUG ApiGateway             requestId=REQ-10446 Retry attempt=1
+2026-07-10 13:20:05 DEBUG ApiGateway             requestId=REQ-10447 JWT validation started
+2026-07-10 22:03:09 ERROR AuthService            requestId=REQ-10448 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.AuthService.AuthServiceImpl.process(AuthServiceImpl.java:126)
+	at com.example.api.Controller.handle(Controller.java:60)
+2026-07-10 13:12:53 WARN  NotificationService    requestId=REQ-10449 Slow database query detected
+2026-07-10 14:28:37 INFO  NotificationService    requestId=REQ-10450 Order created
+2026-07-10 14:52:47 INFO  OrderService           requestId=REQ-10451 Heartbeat received
+2026-07-10 23:29:14 DEBUG UserService            requestId=REQ-10452 Retry attempt=1
+2026-07-10 21:28:45 INFO  OrderService           requestId=REQ-10453 Payment authorized
+2026-07-10 18:34:39 WARN  SearchService          requestId=REQ-10454 Slow database query detected
+2026-07-10 15:19:53 INFO  SearchService          requestId=REQ-10455 Cache refreshed
+2026-07-10 09:44:47 INFO  NotificationService    requestId=REQ-10456 Request completed successfully
+2026-07-10 08:55:52 INFO  AuthService            requestId=REQ-10457 Heartbeat received
+2026-07-10 00:23:43 DEBUG ApiGateway             requestId=REQ-10458 Cache lookup
+2026-07-10 08:52:36 WARN  OrderService           requestId=REQ-10459 Disk usage above 80%
+2026-07-10 01:39:59 DEBUG AuthService            requestId=REQ-10460 Cache lookup
+2026-07-10 20:48:40 INFO  UserService            requestId=REQ-10461 Session created
+2026-07-10 10:31:30 INFO  PaymentService         requestId=REQ-10462 Email sent
+2026-07-10 04:48:17 INFO  PaymentService         requestId=REQ-10463 User authenticated
+2026-07-10 03:33:21 INFO  UserService            requestId=REQ-10464 Inventory synchronized
+2026-07-10 02:00:01 INFO  NotificationService    requestId=REQ-10465 Inventory synchronized
+2026-07-10 00:56:19 INFO  SearchService          requestId=REQ-10466 Payment authorized
+2026-07-10 12:34:16 WARN  PaymentService         requestId=REQ-10467 Cache miss ratio exceeded threshold
+2026-07-10 21:04:07 WARN  AuthService            requestId=REQ-10468 Slow database query detected
+2026-07-10 07:54:59 INFO  ShippingService        requestId=REQ-10469 Heartbeat received
+2026-07-10 19:08:07 INFO  OrderService           requestId=REQ-10470 Cache refreshed
+2026-07-10 10:19:54 DEBUG OrderService           requestId=REQ-10471 Acquired DB connection
+2026-07-10 23:41:53 INFO  ShippingService        requestId=REQ-10472 Request completed successfully
+2026-07-10 06:15:41 DEBUG UserService            requestId=REQ-10473 Cache lookup
+2026-07-10 00:09:19 WARN  OrderService           requestId=REQ-10474 Slow database query detected
+2026-07-10 22:25:20 DEBUG AuthService            requestId=REQ-10475 Serializing JSON
+2026-07-10 20:14:17 INFO  UserService            requestId=REQ-10476 Request completed successfully
+2026-07-10 21:07:02 INFO  ApiGateway             requestId=REQ-10477 Payment authorized
+2026-07-10 06:04:29 INFO  ShippingService        requestId=REQ-10478 Order created
+2026-07-10 04:28:29 DEBUG InventoryService       requestId=REQ-10479 Serializing JSON
+2026-07-10 06:13:21 DEBUG ReportingService       requestId=REQ-10480 Cache lookup
+2026-07-10 08:29:38 WARN  SearchService          requestId=REQ-10481 Connection pool nearing capacity
+2026-07-10 05:40:59 INFO  InventoryService       requestId=REQ-10482 Session created
+2026-07-10 20:41:59 DEBUG InventoryService       requestId=REQ-10483 Cache lookup
+2026-07-10 08:36:28 INFO  NotificationService    requestId=REQ-10484 Payment authorized
+2026-07-10 12:41:43 INFO  PaymentService         requestId=REQ-10485 Order created
+2026-07-10 04:14:11 DEBUG ShippingService        requestId=REQ-10486 JWT validation started
+2026-07-10 00:11:03 INFO  PaymentService         requestId=REQ-10487 Order created
+2026-07-10 22:57:17 INFO  NotificationService    requestId=REQ-10488 Order created
+2026-07-10 14:07:34 DEBUG OrderService           requestId=REQ-10489 Acquired DB connection
+2026-07-10 18:07:40 INFO  UserService            requestId=REQ-10490 Payment authorized
+2026-07-10 01:02:14 FATAL OrderService           requestId=REQ-10491 Primary database unreachable
+FATAL Database unavailable
+Application terminating.
+2026-07-10 07:53:27 INFO  AuthService            requestId=REQ-10492 Session created
+2026-07-10 13:37:13 INFO  SearchService          requestId=REQ-10493 User authenticated
+2026-07-10 03:31:08 WARN  SearchService          requestId=REQ-10494 Retrying failed request
+2026-07-10 00:58:15 WARN  UserService            requestId=REQ-10495 High response time detected
+2026-07-10 15:22:37 INFO  PaymentService         requestId=REQ-10496 Order created
+2026-07-10 04:50:53 DEBUG InventoryService       requestId=REQ-10497 Acquired DB connection
+2026-07-10 20:33:16 DEBUG PaymentService         requestId=REQ-10498 Serializing JSON
+2026-07-10 18:31:35 INFO  ShippingService        requestId=REQ-10499 Heartbeat received
+2026-07-10 08:59:00 ERROR InventoryService       requestId=REQ-10500 Broken client connection
+java.io.IOException: Broken pipe
+	at com.example.InventoryService.InventoryServiceImpl.process(InventoryServiceImpl.java:49)
+	at com.example.api.Controller.handle(Controller.java:49)
+2026-07-10 07:50:30 WARN  NotificationService    requestId=REQ-10501 Connection pool nearing capacity
+2026-07-10 20:54:59 WARN  SearchService          requestId=REQ-10502 High response time detected
+2026-07-10 17:26:53 ERROR ReportingService       requestId=REQ-10503 Unexpected null reference
+java.lang.NullPointerException
+	at com.example.ReportingService.ReportingServiceImpl.process(ReportingServiceImpl.java:160)
+	at com.example.api.Controller.handle(Controller.java:45)
+2026-07-10 16:56:29 DEBUG PaymentService         requestId=REQ-10504 JWT validation started
+2026-07-10 09:52:43 ERROR ApiGateway             requestId=REQ-10505 Broken client connection
+java.io.IOException: Broken pipe
+	at com.example.ApiGateway.ApiGatewayImpl.process(ApiGatewayImpl.java:183)
+	at com.example.api.Controller.handle(Controller.java:41)
+2026-07-10 03:32:31 WARN  NotificationService    requestId=REQ-10506 Retrying failed request
+2026-07-10 15:15:30 INFO  InventoryService       requestId=REQ-10507 Scheduled job completed
+2026-07-10 05:31:32 INFO  AuthService            requestId=REQ-10508 Request completed successfully
+2026-07-10 11:18:43 INFO  UserService            requestId=REQ-10509 User authenticated
+2026-07-10 04:55:00 DEBUG ReportingService       requestId=REQ-10510 Serializing JSON
+2026-07-10 11:18:59 WARN  ApiGateway             requestId=REQ-10511 Connection pool nearing capacity
+2026-07-10 03:03:26 INFO  OrderService           requestId=REQ-10512 Payment authorized
+2026-07-10 18:25:17 INFO  OrderService           requestId=REQ-10513 Order created
+2026-07-10 09:39:04 INFO  ReportingService       requestId=REQ-10514 Cache refreshed
+2026-07-10 12:36:36 INFO  InventoryService       requestId=REQ-10515 Request completed successfully
+2026-07-10 20:59:42 DEBUG ApiGateway             requestId=REQ-10516 JWT validation started
+2026-07-10 08:52:41 INFO  OrderService           requestId=REQ-10517 Cache refreshed
+2026-07-10 10:20:14 INFO  ReportingService       requestId=REQ-10518 Session created
+2026-07-10 23:53:46 INFO  ReportingService       requestId=REQ-10519 Session created
+2026-07-10 06:10:44 INFO  OrderService           requestId=REQ-10520 Scheduled job completed
+2026-07-10 21:11:17 DEBUG OrderService           requestId=REQ-10521 Serializing JSON
+2026-07-10 07:47:15 DEBUG ShippingService        requestId=REQ-10522 Building response payload
+2026-07-10 06:38:00 INFO  NotificationService    requestId=REQ-10523 Payment authorized
+2026-07-10 18:05:20 INFO  SearchService          requestId=REQ-10524 Email sent
+2026-07-10 03:50:24 INFO  ApiGateway             requestId=REQ-10525 Request completed successfully
+2026-07-10 20:55:14 WARN  PaymentService         requestId=REQ-10526 Connection pool nearing capacity
+2026-07-10 19:16:25 WARN  NotificationService    requestId=REQ-10527 Disk usage above 80%
+2026-07-10 03:27:18 INFO  ApiGateway             requestId=REQ-10528 Request completed successfully
+2026-07-10 20:28:37 ERROR NotificationService    requestId=REQ-10529 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.NotificationService.NotificationServiceImpl.process(NotificationServiceImpl.java:176)
+	at com.example.api.Controller.handle(Controller.java:24)
+2026-07-10 01:32:37 INFO  ShippingService        requestId=REQ-10530 Session created
+2026-07-10 20:51:31 INFO  ShippingService        requestId=REQ-10531 Cache refreshed
+2026-07-10 09:14:44 INFO  UserService            requestId=REQ-10532 Cache refreshed
+2026-07-10 04:17:13 DEBUG InventoryService       requestId=REQ-10533 JWT validation started
+2026-07-10 00:17:59 INFO  ApiGateway             requestId=REQ-10534 Payment authorized
+2026-07-10 09:41:14 INFO  ShippingService        requestId=REQ-10535 Payment authorized
+2026-07-10 23:08:56 INFO  AuthService            requestId=REQ-10536 Payment authorized
+2026-07-10 06:08:38 DEBUG OrderService           requestId=REQ-10537 Acquired DB connection
+2026-07-10 15:54:24 INFO  ApiGateway             requestId=REQ-10538 Order created
+2026-07-10 02:02:17 INFO  PaymentService         requestId=REQ-10539 Request completed successfully
+2026-07-10 10:44:32 INFO  PaymentService         requestId=REQ-10540 Payment authorized
+2026-07-10 10:49:08 DEBUG SearchService          requestId=REQ-10541 Cache lookup
+2026-07-10 15:16:40 INFO  ShippingService        requestId=REQ-10542 Session created
+2026-07-10 06:21:44 DEBUG SearchService          requestId=REQ-10543 Cache lookup
+2026-07-10 12:48:01 ERROR ApiGateway             requestId=REQ-10544 Gateway timeout
+HTTP 504 Gateway Timeout
+2026-07-10 05:43:49 INFO  AuthService            requestId=REQ-10545 Order created
+2026-07-10 03:58:00 INFO  InventoryService       requestId=REQ-10546 Email sent
+2026-07-10 22:04:11 DEBUG ShippingService        requestId=REQ-10547 Calling downstream service
+2026-07-10 04:10:04 INFO  ShippingService        requestId=REQ-10548 User authenticated
+2026-07-10 20:46:37 INFO  SearchService          requestId=REQ-10549 Request completed successfully
+2026-07-10 08:36:32 WARN  InventoryService       requestId=REQ-10550 Retrying failed request
+2026-07-10 11:24:15 INFO  InventoryService       requestId=REQ-10551 Request completed successfully
+2026-07-10 13:21:54 DEBUG ApiGateway             requestId=REQ-10552 Building response payload
+2026-07-10 23:40:11 INFO  InventoryService       requestId=REQ-10553 Payment authorized
+2026-07-10 17:07:28 ERROR InventoryService       requestId=REQ-10554 Gateway timeout
+HTTP 504 Gateway Timeout
+2026-07-10 09:57:31 INFO  NotificationService    requestId=REQ-10555 Session created
+2026-07-10 09:01:52 INFO  PaymentService         requestId=REQ-10556 Scheduled job completed
+2026-07-10 23:22:46 WARN  AuthService            requestId=REQ-10557 High response time detected
+2026-07-10 06:54:16 INFO  InventoryService       requestId=REQ-10558 Order created
+2026-07-10 10:43:56 WARN  OrderService           requestId=REQ-10559 Retrying failed request
+2026-07-10 02:01:18 INFO  ReportingService       requestId=REQ-10560 Session created
+2026-07-10 04:53:44 WARN  ShippingService        requestId=REQ-10561 High response time detected
+2026-07-10 10:50:03 WARN  UserService            requestId=REQ-10562 High response time detected
+2026-07-10 15:51:52 INFO  ShippingService        requestId=REQ-10563 Payment authorized
+2026-07-10 14:49:02 INFO  PaymentService         requestId=REQ-10564 User authenticated
+2026-07-10 22:10:41 DEBUG ShippingService        requestId=REQ-10565 Executing SQL query
+2026-07-10 10:59:45 DEBUG ApiGateway             requestId=REQ-10566 Serializing JSON
+2026-07-10 00:06:25 DEBUG ShippingService        requestId=REQ-10567 Acquired DB connection
+2026-07-10 23:32:28 INFO  ApiGateway             requestId=REQ-10568 Heartbeat received
+2026-07-10 07:22:55 INFO  ApiGateway             requestId=REQ-10569 Scheduled job completed
+2026-07-10 13:10:41 INFO  ShippingService        requestId=REQ-10570 Payment authorized
+2026-07-10 17:57:04 INFO  ReportingService       requestId=REQ-10571 Heartbeat received
+2026-07-10 21:46:41 ERROR ShippingService        requestId=REQ-10572 Unexpected null reference
+java.lang.NullPointerException
+	at com.example.ShippingService.ShippingServiceImpl.process(ShippingServiceImpl.java:55)
+	at com.example.api.Controller.handle(Controller.java:73)
+2026-07-10 07:00:15 INFO  AuthService            requestId=REQ-10573 Inventory synchronized
+2026-07-10 03:22:02 INFO  ReportingService       requestId=REQ-10574 User authenticated
+2026-07-10 00:12:09 INFO  UserService            requestId=REQ-10575 Payment authorized
+2026-07-10 19:32:24 DEBUG NotificationService    requestId=REQ-10576 Building response payload
+2026-07-10 19:40:55 DEBUG ReportingService       requestId=REQ-10577 Building response payload
+2026-07-10 16:12:57 WARN  ReportingService       requestId=REQ-10578 Retrying failed request
+2026-07-10 20:51:34 ERROR InventoryService       requestId=REQ-10579 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.InventoryService.InventoryServiceImpl.process(InventoryServiceImpl.java:106)
+	at com.example.api.Controller.handle(Controller.java:21)
+2026-07-10 06:47:20 DEBUG ReportingService       requestId=REQ-10580 Cache lookup
+2026-07-10 07:30:26 INFO  AuthService            requestId=REQ-10581 Inventory synchronized
+2026-07-10 20:04:01 DEBUG PaymentService         requestId=REQ-10582 Acquired DB connection
+2026-07-10 13:58:14 INFO  ShippingService        requestId=REQ-10583 Scheduled job completed
+2026-07-10 18:50:46 ERROR SearchService          requestId=REQ-10584 Gateway timeout
+HTTP 504 Gateway Timeout
+2026-07-10 10:38:16 INFO  SearchService          requestId=REQ-10585 Heartbeat received
+2026-07-10 01:43:30 INFO  InventoryService       requestId=REQ-10586 Email sent
+2026-07-10 23:47:52 INFO  UserService            requestId=REQ-10587 Payment authorized
+2026-07-10 09:39:31 INFO  NotificationService    requestId=REQ-10588 Cache refreshed
+2026-07-10 05:39:20 INFO  ReportingService       requestId=REQ-10589 Email sent
+2026-07-10 10:12:57 INFO  AuthService            requestId=REQ-10590 Email sent
+2026-07-10 02:00:31 INFO  InventoryService       requestId=REQ-10591 Payment authorized
+2026-07-10 20:41:28 INFO  OrderService           requestId=REQ-10592 Cache refreshed
+2026-07-10 10:22:02 INFO  PaymentService         requestId=REQ-10593 Heartbeat received
+2026-07-10 18:58:01 INFO  ApiGateway             requestId=REQ-10594 Cache refreshed
+2026-07-10 15:20:48 WARN  AuthService            requestId=REQ-10595 Slow database query detected
+2026-07-10 00:45:22 INFO  SearchService          requestId=REQ-10596 Email sent
+2026-07-10 20:22:06 INFO  ShippingService        requestId=REQ-10597 Scheduled job completed
+2026-07-10 10:38:34 INFO  ShippingService        requestId=REQ-10598 Scheduled job completed
+2026-07-10 12:34:47 WARN  AuthService            requestId=REQ-10599 High response time detected
+2026-07-10 02:37:47 INFO  PaymentService         requestId=REQ-10600 Inventory synchronized
+2026-07-10 12:54:43 DEBUG InventoryService       requestId=REQ-10601 Building response payload
+2026-07-10 09:13:34 WARN  InventoryService       requestId=REQ-10602 High response time detected
+2026-07-10 15:10:07 INFO  InventoryService       requestId=REQ-10603 Email sent
+2026-07-10 01:10:56 INFO  OrderService           requestId=REQ-10604 Session created
+2026-07-10 07:56:20 DEBUG ApiGateway             requestId=REQ-10605 Building response payload
+2026-07-10 05:47:46 DEBUG ShippingService        requestId=REQ-10606 Retry attempt=1
+2026-07-10 19:16:52 INFO  AuthService            requestId=REQ-10607 Payment authorized
+2026-07-10 22:51:58 INFO  PaymentService         requestId=REQ-10608 Email sent
+2026-07-10 16:26:54 FATAL AuthService            requestId=REQ-10609 Application shutting down
+java.lang.OutOfMemoryError: Java heap space
+Application terminating.
+2026-07-10 20:29:02 ERROR SearchService          requestId=REQ-10610 Gateway timeout
+HTTP 504 Gateway Timeout
+2026-07-10 02:40:03 ERROR AuthService            requestId=REQ-10611 Broken client connection
+java.io.IOException: Broken pipe
+	at com.example.AuthService.AuthServiceImpl.process(AuthServiceImpl.java:58)
+	at com.example.api.Controller.handle(Controller.java:82)
+2026-07-10 17:27:19 INFO  ReportingService       requestId=REQ-10612 Inventory synchronized
+2026-07-10 00:22:44 INFO  OrderService           requestId=REQ-10613 Scheduled job completed
+2026-07-10 10:00:11 INFO  InventoryService       requestId=REQ-10614 Payment authorized
+2026-07-10 07:21:55 ERROR ShippingService        requestId=REQ-10615 Broken client connection
+java.io.IOException: Broken pipe
+	at com.example.ShippingService.ShippingServiceImpl.process(ShippingServiceImpl.java:188)
+	at com.example.api.Controller.handle(Controller.java:42)
+2026-07-10 19:16:40 INFO  ShippingService        requestId=REQ-10616 Email sent
+2026-07-10 20:36:00 DEBUG InventoryService       requestId=REQ-10617 Retry attempt=1
+2026-07-10 19:21:13 DEBUG AuthService            requestId=REQ-10618 Serializing JSON
+2026-07-10 21:22:25 ERROR SearchService          requestId=REQ-10619 Downstream service unavailable
+java.net.ConnectException: Connection refused
+	at com.example.SearchService.SearchServiceImpl.process(SearchServiceImpl.java:118)
+	at com.example.api.Controller.handle(Controller.java:46)
+2026-07-10 01:38:08 INFO  NotificationService    requestId=REQ-10620 Scheduled job completed
+2026-07-10 18:20:27 INFO  ReportingService       requestId=REQ-10621 Order created
+2026-07-10 20:55:31 WARN  UserService            requestId=REQ-10622 Retrying failed request
+2026-07-10 04:23:21 INFO  NotificationService    requestId=REQ-10623 Scheduled job completed
+2026-07-10 20:02:59 INFO  PaymentService         requestId=REQ-10624 User authenticated
+2026-07-10 19:07:51 ERROR OrderService           requestId=REQ-10625 Database connection unavailable
+java.sql.SQLTransientConnectionException: Connection is not available
+	at com.example.OrderService.OrderServiceImpl.process(OrderServiceImpl.java:187)
+	at com.example.api.Controller.handle(Controller.java:59)
+2026-07-10 13:22:35 INFO  UserService            requestId=REQ-10626 Email sent
+2026-07-10 21:58:38 INFO  AuthService            requestId=REQ-10627 Payment authorized
+2026-07-10 23:28:04 INFO  OrderService           requestId=REQ-10628 Request completed successfully
+2026-07-10 01:12:16 ERROR ShippingService        requestId=REQ-10629 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.ShippingService.ShippingServiceImpl.process(ShippingServiceImpl.java:82)
+	at com.example.api.Controller.handle(Controller.java:63)
+2026-07-10 01:09:37 INFO  NotificationService    requestId=REQ-10630 Order created
+2026-07-10 16:01:25 INFO  InventoryService       requestId=REQ-10631 Order created
+2026-07-10 02:19:34 WARN  SearchService          requestId=REQ-10632 Connection pool nearing capacity
+2026-07-10 12:13:26 DEBUG ReportingService       requestId=REQ-10633 JWT validation started
+2026-07-10 03:20:39 INFO  ReportingService       requestId=REQ-10634 Heartbeat received
+2026-07-10 05:45:59 ERROR NotificationService    requestId=REQ-10635 Database connection unavailable
+java.sql.SQLTransientConnectionException: Connection is not available
+	at com.example.NotificationService.NotificationServiceImpl.process(NotificationServiceImpl.java:161)
+	at com.example.api.Controller.handle(Controller.java:29)
+2026-07-10 00:53:52 INFO  OrderService           requestId=REQ-10636 Cache refreshed
+2026-07-10 10:54:00 INFO  PaymentService         requestId=REQ-10637 Heartbeat received
+2026-07-10 03:32:39 INFO  AuthService            requestId=REQ-10638 User authenticated
+2026-07-10 17:10:21 DEBUG ReportingService       requestId=REQ-10639 Cache lookup
+2026-07-10 02:11:23 DEBUG NotificationService    requestId=REQ-10640 Executing SQL query
+2026-07-10 06:26:52 INFO  PaymentService         requestId=REQ-10641 Order created
+2026-07-10 07:19:52 WARN  UserService            requestId=REQ-10642 High response time detected
+2026-07-10 14:42:18 INFO  SearchService          requestId=REQ-10643 Request completed successfully
+2026-07-10 01:19:27 DEBUG UserService            requestId=REQ-10644 Serializing JSON
+2026-07-10 02:47:02 INFO  NotificationService    requestId=REQ-10645 User authenticated
+2026-07-10 08:44:56 INFO  ApiGateway             requestId=REQ-10646 Email sent
+2026-07-10 09:36:42 INFO  AuthService            requestId=REQ-10647 Payment authorized
+2026-07-10 13:45:20 WARN  ShippingService        requestId=REQ-10648 Slow database query detected
+2026-07-10 04:18:09 DEBUG OrderService           requestId=REQ-10649 Acquired DB connection
+2026-07-10 19:56:15 INFO  UserService            requestId=REQ-10650 Payment authorized
+2026-07-10 05:16:56 INFO  NotificationService    requestId=REQ-10651 Cache refreshed
+2026-07-10 04:17:55 INFO  PaymentService         requestId=REQ-10652 Heartbeat received
+2026-07-10 18:32:03 INFO  NotificationService    requestId=REQ-10653 Request completed successfully
+2026-07-10 20:55:13 INFO  ApiGateway             requestId=REQ-10654 Scheduled job completed
+2026-07-10 07:45:32 INFO  SearchService          requestId=REQ-10655 Scheduled job completed
+2026-07-10 17:16:15 INFO  AuthService            requestId=REQ-10656 Scheduled job completed
+2026-07-10 06:36:02 INFO  PaymentService         requestId=REQ-10657 Heartbeat received
+2026-07-10 13:11:25 INFO  NotificationService    requestId=REQ-10658 Payment authorized
+2026-07-10 10:09:25 INFO  NotificationService    requestId=REQ-10659 Heartbeat received
+2026-07-10 19:38:49 INFO  AuthService            requestId=REQ-10660 Cache refreshed
+2026-07-10 06:51:34 INFO  InventoryService       requestId=REQ-10661 Inventory synchronized
+2026-07-10 12:12:13 WARN  ReportingService       requestId=REQ-10662 Slow database query detected
+2026-07-10 02:42:35 WARN  AuthService            requestId=REQ-10663 Slow database query detected
+2026-07-10 16:19:28 INFO  InventoryService       requestId=REQ-10664 Request completed successfully
+2026-07-10 23:43:21 INFO  OrderService           requestId=REQ-10665 Payment authorized
+2026-07-10 15:36:07 INFO  SearchService          requestId=REQ-10666 Order created
+2026-07-10 03:25:18 INFO  ApiGateway             requestId=REQ-10667 Inventory synchronized
+2026-07-10 04:58:14 WARN  ApiGateway             requestId=REQ-10668 Connection pool nearing capacity
+2026-07-10 05:46:27 INFO  NotificationService    requestId=REQ-10669 Payment authorized
+2026-07-10 04:38:54 INFO  OrderService           requestId=REQ-10670 Email sent
+2026-07-10 17:26:47 INFO  PaymentService         requestId=REQ-10671 Request completed successfully
+2026-07-10 12:39:40 INFO  AuthService            requestId=REQ-10672 Request completed successfully
+2026-07-10 07:45:54 INFO  InventoryService       requestId=REQ-10673 Inventory synchronized
+2026-07-10 14:42:55 WARN  ReportingService       requestId=REQ-10674 Connection pool nearing capacity
+2026-07-10 18:20:03 DEBUG InventoryService       requestId=REQ-10675 Cache lookup
+2026-07-10 19:02:48 INFO  InventoryService       requestId=REQ-10676 Session created
+2026-07-10 18:45:00 DEBUG OrderService           requestId=REQ-10677 Calling downstream service
+2026-07-10 17:49:27 DEBUG InventoryService       requestId=REQ-10678 Acquired DB connection
+2026-07-10 23:13:40 INFO  OrderService           requestId=REQ-10679 Inventory synchronized
+2026-07-10 20:07:09 INFO  OrderService           requestId=REQ-10680 Session created
+2026-07-10 02:58:02 INFO  NotificationService    requestId=REQ-10681 Payment authorized
+2026-07-10 23:59:12 INFO  PaymentService         requestId=REQ-10682 Cache refreshed
+2026-07-10 07:26:40 DEBUG NotificationService    requestId=REQ-10683 Retry attempt=1
+2026-07-10 18:02:57 INFO  ShippingService        requestId=REQ-10684 Order created
+2026-07-10 00:49:07 INFO  AuthService            requestId=REQ-10685 User authenticated
+2026-07-10 08:23:57 DEBUG ReportingService       requestId=REQ-10686 Acquired DB connection
+2026-07-10 12:31:50 INFO  ShippingService        requestId=REQ-10687 Session created
+2026-07-10 01:13:15 DEBUG PaymentService         requestId=REQ-10688 Executing SQL query
+2026-07-10 20:58:39 INFO  InventoryService       requestId=REQ-10689 Heartbeat received
+2026-07-10 04:20:53 WARN  UserService            requestId=REQ-10690 Retrying failed request
+2026-07-10 00:49:55 WARN  ShippingService        requestId=REQ-10691 Disk usage above 80%
+2026-07-10 13:33:41 DEBUG ReportingService       requestId=REQ-10692 Serializing JSON
+2026-07-10 22:04:47 INFO  ApiGateway             requestId=REQ-10693 Inventory synchronized
+2026-07-10 12:13:27 INFO  PaymentService         requestId=REQ-10694 Cache refreshed
+2026-07-10 03:50:27 INFO  ShippingService        requestId=REQ-10695 Request completed successfully
+2026-07-10 10:24:05 WARN  AuthService            requestId=REQ-10696 Slow database query detected
+2026-07-10 02:36:06 DEBUG InventoryService       requestId=REQ-10697 Retry attempt=1
+2026-07-10 15:32:32 ERROR UserService            requestId=REQ-10698 Unexpected null reference
+java.lang.NullPointerException
+	at com.example.UserService.UserServiceImpl.process(UserServiceImpl.java:152)
+	at com.example.api.Controller.handle(Controller.java:84)
+2026-07-10 15:35:41 DEBUG SearchService          requestId=REQ-10699 Calling downstream service
+2026-07-10 06:07:49 ERROR PaymentService         requestId=REQ-10700 Unexpected null reference
+java.lang.NullPointerException
+	at com.example.PaymentService.PaymentServiceImpl.process(PaymentServiceImpl.java:178)
+	at com.example.api.Controller.handle(Controller.java:46)
+2026-07-10 05:01:55 INFO  AuthService            requestId=REQ-10701 Inventory synchronized
+2026-07-10 17:20:13 WARN  AuthService            requestId=REQ-10702 Connection pool nearing capacity
+2026-07-10 14:46:17 DEBUG AuthService            requestId=REQ-10703 Calling downstream service
+2026-07-10 11:17:36 ERROR AuthService            requestId=REQ-10704 Database connection unavailable
+java.sql.SQLTransientConnectionException: Connection is not available
+	at com.example.AuthService.AuthServiceImpl.process(AuthServiceImpl.java:117)
+	at com.example.api.Controller.handle(Controller.java:68)
+2026-07-10 12:21:28 WARN  InventoryService       requestId=REQ-10705 Disk usage above 80%
+2026-07-10 15:19:18 WARN  OrderService           requestId=REQ-10706 Disk usage above 80%
+2026-07-10 16:04:43 INFO  SearchService          requestId=REQ-10707 Inventory synchronized
+2026-07-10 03:57:23 DEBUG ShippingService        requestId=REQ-10708 JWT validation started
+2026-07-10 08:22:12 WARN  ShippingService        requestId=REQ-10709 High response time detected
+2026-07-10 04:00:44 ERROR PaymentService         requestId=REQ-10710 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.PaymentService.PaymentServiceImpl.process(PaymentServiceImpl.java:189)
+	at com.example.api.Controller.handle(Controller.java:72)
+2026-07-10 17:45:11 WARN  UserService            requestId=REQ-10711 Retrying failed request
+2026-07-10 04:40:16 INFO  UserService            requestId=REQ-10712 User authenticated
+2026-07-10 10:27:59 INFO  AuthService            requestId=REQ-10713 Session created
+2026-07-10 23:42:24 INFO  InventoryService       requestId=REQ-10714 User authenticated
+2026-07-10 15:20:09 WARN  NotificationService    requestId=REQ-10715 Retrying failed request
+2026-07-10 13:46:54 INFO  PaymentService         requestId=REQ-10716 Email sent
+2026-07-10 13:29:48 INFO  ApiGateway             requestId=REQ-10717 Email sent
+2026-07-10 12:48:52 INFO  PaymentService         requestId=REQ-10718 Cache refreshed
+2026-07-10 05:11:28 DEBUG InventoryService       requestId=REQ-10719 Retry attempt=1
+2026-07-10 09:36:27 INFO  ReportingService       requestId=REQ-10720 Heartbeat received
+2026-07-10 03:20:59 INFO  ReportingService       requestId=REQ-10721 Cache refreshed
+2026-07-10 10:43:41 INFO  InventoryService       requestId=REQ-10722 Email sent
+2026-07-10 19:06:48 DEBUG UserService            requestId=REQ-10723 Cache lookup
+2026-07-10 13:47:09 INFO  ApiGateway             requestId=REQ-10724 Email sent
+2026-07-10 12:39:52 INFO  SearchService          requestId=REQ-10725 Inventory synchronized
+2026-07-10 14:04:53 INFO  NotificationService    requestId=REQ-10726 Session created
+2026-07-10 09:28:57 INFO  PaymentService         requestId=REQ-10727 Email sent
+2026-07-10 11:28:56 INFO  ApiGateway             requestId=REQ-10728 Heartbeat received
+2026-07-10 08:35:00 INFO  ReportingService       requestId=REQ-10729 Cache refreshed
+2026-07-10 14:25:02 INFO  AuthService            requestId=REQ-10730 Order created
+2026-07-10 19:33:47 INFO  NotificationService    requestId=REQ-10731 Email sent
+2026-07-10 14:10:57 DEBUG AuthService            requestId=REQ-10732 Calling downstream service
+2026-07-10 16:10:47 WARN  AuthService            requestId=REQ-10733 High response time detected
+2026-07-10 17:53:19 INFO  ApiGateway             requestId=REQ-10734 Inventory synchronized
+2026-07-10 23:32:02 INFO  SearchService          requestId=REQ-10735 Order created
+2026-07-10 15:05:37 INFO  SearchService          requestId=REQ-10736 Payment authorized
+2026-07-10 08:30:16 INFO  NotificationService    requestId=REQ-10737 User authenticated
+2026-07-10 17:46:50 DEBUG OrderService           requestId=REQ-10738 Retry attempt=1
+2026-07-10 09:03:40 WARN  ShippingService        requestId=REQ-10739 Disk usage above 80%
+2026-07-10 04:55:23 WARN  NotificationService    requestId=REQ-10740 Connection pool nearing capacity
+2026-07-10 11:18:28 INFO  SearchService          requestId=REQ-10741 Scheduled job completed
+2026-07-10 04:49:14 INFO  PaymentService         requestId=REQ-10742 Session created
+2026-07-10 01:44:27 INFO  OrderService           requestId=REQ-10743 Inventory synchronized
+2026-07-10 10:44:43 INFO  PaymentService         requestId=REQ-10744 Payment authorized
+2026-07-10 19:22:08 INFO  NotificationService    requestId=REQ-10745 Heartbeat received
+2026-07-10 04:32:59 INFO  ReportingService       requestId=REQ-10746 Request completed successfully
+2026-07-10 20:02:16 WARN  ReportingService       requestId=REQ-10747 Slow database query detected
+2026-07-10 17:41:51 INFO  SearchService          requestId=REQ-10748 Order created
+2026-07-10 10:04:11 WARN  SearchService          requestId=REQ-10749 High response time detected
+2026-07-10 07:06:32 DEBUG AuthService            requestId=REQ-10750 Serializing JSON
+2026-07-10 00:26:10 DEBUG OrderService           requestId=REQ-10751 Executing SQL query
+2026-07-10 02:15:09 INFO  OrderService           requestId=REQ-10752 Cache refreshed
+2026-07-10 19:27:58 INFO  NotificationService    requestId=REQ-10753 Cache refreshed
+2026-07-10 06:29:24 WARN  PaymentService         requestId=REQ-10754 Disk usage above 80%
+2026-07-10 02:39:15 DEBUG NotificationService    requestId=REQ-10755 Cache lookup
+2026-07-10 18:13:14 ERROR AuthService            requestId=REQ-10756 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.AuthService.AuthServiceImpl.process(AuthServiceImpl.java:146)
+	at com.example.api.Controller.handle(Controller.java:75)
+2026-07-10 11:00:39 INFO  ShippingService        requestId=REQ-10757 Heartbeat received
+2026-07-10 10:00:18 INFO  OrderService           requestId=REQ-10758 Cache refreshed
+2026-07-10 03:04:40 INFO  ShippingService        requestId=REQ-10759 Payment authorized
+2026-07-10 01:34:42 INFO  AuthService            requestId=REQ-10760 Request completed successfully
+2026-07-10 21:19:31 INFO  ReportingService       requestId=REQ-10761 Session created
+2026-07-10 09:49:16 DEBUG InventoryService       requestId=REQ-10762 Calling downstream service
+2026-07-10 14:35:38 INFO  ReportingService       requestId=REQ-10763 Scheduled job completed
+2026-07-10 06:12:29 DEBUG AuthService            requestId=REQ-10764 Retry attempt=1
+2026-07-10 06:28:02 DEBUG SearchService          requestId=REQ-10765 Serializing JSON
+2026-07-10 01:11:11 INFO  OrderService           requestId=REQ-10766 Order created
+2026-07-10 18:09:01 DEBUG NotificationService    requestId=REQ-10767 Acquired DB connection
+2026-07-10 13:06:55 WARN  ApiGateway             requestId=REQ-10768 Retrying failed request
+2026-07-10 21:56:57 INFO  ReportingService       requestId=REQ-10769 Inventory synchronized
+2026-07-10 02:59:44 INFO  InventoryService       requestId=REQ-10770 Email sent
+2026-07-10 19:28:52 INFO  UserService            requestId=REQ-10771 Session created
+2026-07-10 19:19:23 ERROR ReportingService       requestId=REQ-10772 Unexpected null reference
+java.lang.NullPointerException
+	at com.example.ReportingService.ReportingServiceImpl.process(ReportingServiceImpl.java:173)
+	at com.example.api.Controller.handle(Controller.java:36)
+2026-07-10 00:08:30 DEBUG NotificationService    requestId=REQ-10773 Retry attempt=1
+2026-07-10 23:27:25 INFO  UserService            requestId=REQ-10774 Heartbeat received
+2026-07-10 15:14:09 WARN  UserService            requestId=REQ-10775 Cache miss ratio exceeded threshold
+2026-07-10 00:03:53 INFO  SearchService          requestId=REQ-10776 Heartbeat received
+2026-07-10 13:48:56 INFO  NotificationService    requestId=REQ-10777 Inventory synchronized
+2026-07-10 04:42:51 DEBUG NotificationService    requestId=REQ-10778 Building response payload
+2026-07-10 21:18:07 INFO  UserService            requestId=REQ-10779 Payment authorized
+2026-07-10 00:25:50 FATAL SearchService          requestId=REQ-10780 Application shutting down
+java.lang.OutOfMemoryError: Java heap space
+Application terminating.
+2026-07-10 21:59:31 INFO  InventoryService       requestId=REQ-10781 Cache refreshed
+2026-07-10 09:41:32 INFO  NotificationService    requestId=REQ-10782 Request completed successfully
+2026-07-10 16:53:42 ERROR PaymentService         requestId=REQ-10783 Downstream service unavailable
+java.net.ConnectException: Connection refused
+	at com.example.PaymentService.PaymentServiceImpl.process(PaymentServiceImpl.java:177)
+	at com.example.api.Controller.handle(Controller.java:41)
+2026-07-10 23:46:52 INFO  NotificationService    requestId=REQ-10784 Session created
+2026-07-10 02:16:34 INFO  PaymentService         requestId=REQ-10785 Payment authorized
+2026-07-10 16:33:19 DEBUG ApiGateway             requestId=REQ-10786 Serializing JSON
+2026-07-10 16:36:40 INFO  OrderService           requestId=REQ-10787 User authenticated
+2026-07-10 05:31:59 INFO  PaymentService         requestId=REQ-10788 Cache refreshed
+2026-07-10 06:17:57 INFO  ShippingService        requestId=REQ-10789 User authenticated
+2026-07-10 11:31:04 INFO  NotificationService    requestId=REQ-10790 Inventory synchronized
+2026-07-10 03:08:59 WARN  UserService            requestId=REQ-10791 Disk usage above 80%
+2026-07-10 14:18:15 INFO  UserService            requestId=REQ-10792 Email sent
+2026-07-10 13:52:52 INFO  InventoryService       requestId=REQ-10793 Request completed successfully
+2026-07-10 14:07:54 INFO  OrderService           requestId=REQ-10794 Session created
+2026-07-10 15:12:25 WARN  ReportingService       requestId=REQ-10795 Retrying failed request
+2026-07-10 03:37:47 INFO  ShippingService        requestId=REQ-10796 Order created
+2026-07-10 11:46:31 INFO  PaymentService         requestId=REQ-10797 Email sent
+2026-07-10 17:34:21 ERROR OrderService           requestId=REQ-10798 Invalid JWT token
+HTTP 401 Unauthorized
+2026-07-10 08:09:25 DEBUG ApiGateway             requestId=REQ-10799 Serializing JSON
+2026-07-10 16:58:31 INFO  SearchService          requestId=REQ-10800 Payment authorized
+2026-07-10 05:25:47 WARN  UserService            requestId=REQ-10801 Retrying failed request
+2026-07-10 22:02:26 INFO  PaymentService         requestId=REQ-10802 Order created
+2026-07-10 05:04:39 INFO  ReportingService       requestId=REQ-10803 Session created
+2026-07-10 22:00:25 INFO  NotificationService    requestId=REQ-10804 Payment authorized
+2026-07-10 00:35:17 INFO  AuthService            requestId=REQ-10805 Request completed successfully
+2026-07-10 14:26:29 INFO  ShippingService        requestId=REQ-10806 Request completed successfully
+2026-07-10 04:54:26 INFO  PaymentService         requestId=REQ-10807 Scheduled job completed
+2026-07-10 04:35:05 WARN  AuthService            requestId=REQ-10808 Connection pool nearing capacity
+2026-07-10 06:54:12 WARN  SearchService          requestId=REQ-10809 High response time detected
+2026-07-10 13:07:10 ERROR ReportingService       requestId=REQ-10810 Gateway timeout
+HTTP 504 Gateway Timeout
+2026-07-10 11:07:10 INFO  AuthService            requestId=REQ-10811 Session created
+2026-07-10 06:19:51 INFO  PaymentService         requestId=REQ-10812 Heartbeat received
+2026-07-10 10:55:18 INFO  InventoryService       requestId=REQ-10813 Email sent
+2026-07-10 21:14:12 ERROR OrderService           requestId=REQ-10814 Downstream service unavailable
+java.net.ConnectException: Connection refused
+	at com.example.OrderService.OrderServiceImpl.process(OrderServiceImpl.java:215)
+	at com.example.api.Controller.handle(Controller.java:53)
+2026-07-10 16:46:59 INFO  ReportingService       requestId=REQ-10815 Email sent
+2026-07-10 08:08:21 INFO  InventoryService       requestId=REQ-10816 Order created
+2026-07-10 21:37:45 ERROR OrderService           requestId=REQ-10817 Invalid JWT token
+HTTP 401 Unauthorized
+2026-07-10 12:37:25 ERROR OrderService           requestId=REQ-10818 Database connection unavailable
+java.sql.SQLTransientConnectionException: Connection is not available
+	at com.example.OrderService.OrderServiceImpl.process(OrderServiceImpl.java:116)
+	at com.example.api.Controller.handle(Controller.java:69)
+2026-07-10 09:35:08 DEBUG SearchService          requestId=REQ-10819 Calling downstream service
+2026-07-10 20:26:01 DEBUG InventoryService       requestId=REQ-10820 Cache lookup
+2026-07-10 15:19:39 WARN  NotificationService    requestId=REQ-10821 Slow database query detected
+2026-07-10 19:46:27 INFO  ReportingService       requestId=REQ-10822 Inventory synchronized
+2026-07-10 05:45:08 INFO  NotificationService    requestId=REQ-10823 Heartbeat received
+2026-07-10 01:52:30 DEBUG OrderService           requestId=REQ-10824 Acquired DB connection
+2026-07-10 07:29:59 INFO  UserService            requestId=REQ-10825 Inventory synchronized
+2026-07-10 10:05:19 DEBUG AuthService            requestId=REQ-10826 Serializing JSON
+2026-07-10 11:04:07 INFO  SearchService          requestId=REQ-10827 Session created
+2026-07-10 11:59:32 WARN  AuthService            requestId=REQ-10828 Cache miss ratio exceeded threshold
+2026-07-10 02:50:34 INFO  ShippingService        requestId=REQ-10829 Request completed successfully
+2026-07-10 07:04:42 INFO  OrderService           requestId=REQ-10830 Heartbeat received
+2026-07-10 22:34:45 INFO  ShippingService        requestId=REQ-10831 User authenticated
+2026-07-10 11:36:39 WARN  AuthService            requestId=REQ-10832 Cache miss ratio exceeded threshold
+2026-07-10 21:35:41 ERROR InventoryService       requestId=REQ-10833 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.InventoryService.InventoryServiceImpl.process(InventoryServiceImpl.java:168)
+	at com.example.api.Controller.handle(Controller.java:34)
+2026-07-10 09:20:36 INFO  ReportingService       requestId=REQ-10834 Email sent
+2026-07-10 06:17:31 DEBUG AuthService            requestId=REQ-10835 Retry attempt=1
+2026-07-10 04:27:14 INFO  ShippingService        requestId=REQ-10836 Session created
+2026-07-10 16:06:02 ERROR InventoryService       requestId=REQ-10837 Gateway timeout
+HTTP 504 Gateway Timeout
+2026-07-10 23:30:18 INFO  PaymentService         requestId=REQ-10838 Heartbeat received
+2026-07-10 21:50:51 DEBUG NotificationService    requestId=REQ-10839 Cache lookup
+2026-07-10 01:32:28 INFO  AuthService            requestId=REQ-10840 Heartbeat received
+2026-07-10 13:35:14 INFO  OrderService           requestId=REQ-10841 Payment authorized
+2026-07-10 01:54:43 ERROR InventoryService       requestId=REQ-10842 Database connection unavailable
+java.sql.SQLTransientConnectionException: Connection is not available
+	at com.example.InventoryService.InventoryServiceImpl.process(InventoryServiceImpl.java:102)
+	at com.example.api.Controller.handle(Controller.java:38)
+2026-07-10 12:32:28 WARN  NotificationService    requestId=REQ-10843 Connection pool nearing capacity
+2026-07-10 17:01:44 INFO  UserService            requestId=REQ-10844 Email sent
+2026-07-10 02:13:59 INFO  InventoryService       requestId=REQ-10845 Heartbeat received
+2026-07-10 07:03:15 INFO  InventoryService       requestId=REQ-10846 Payment authorized
+2026-07-10 00:02:55 INFO  UserService            requestId=REQ-10847 Request completed successfully
+2026-07-10 04:29:26 INFO  ReportingService       requestId=REQ-10848 User authenticated
+2026-07-10 06:48:08 DEBUG UserService            requestId=REQ-10849 Serializing JSON
+2026-07-10 22:56:53 WARN  NotificationService    requestId=REQ-10850 Slow database query detected
+2026-07-10 16:44:24 INFO  InventoryService       requestId=REQ-10851 User authenticated
+2026-07-10 11:14:06 DEBUG ReportingService       requestId=REQ-10852 Calling downstream service
+2026-07-10 13:22:17 DEBUG InventoryService       requestId=REQ-10853 Calling downstream service
+2026-07-10 09:46:46 INFO  UserService            requestId=REQ-10854 Session created
+2026-07-10 07:04:48 DEBUG PaymentService         requestId=REQ-10855 Retry attempt=1
+2026-07-10 05:40:33 INFO  OrderService           requestId=REQ-10856 Payment authorized
+2026-07-10 04:02:42 DEBUG PaymentService         requestId=REQ-10857 Cache lookup
+2026-07-10 00:26:21 INFO  NotificationService    requestId=REQ-10858 Request completed successfully
+2026-07-10 03:38:23 INFO  NotificationService    requestId=REQ-10859 Heartbeat received
+2026-07-10 09:39:11 INFO  UserService            requestId=REQ-10860 Scheduled job completed
+2026-07-10 14:41:32 WARN  ApiGateway             requestId=REQ-10861 Retrying failed request
+2026-07-10 19:03:53 INFO  ApiGateway             requestId=REQ-10862 User authenticated
+2026-07-10 04:54:42 INFO  PaymentService         requestId=REQ-10863 Email sent
+2026-07-10 21:53:13 INFO  PaymentService         requestId=REQ-10864 Cache refreshed
+2026-07-10 15:11:32 INFO  UserService            requestId=REQ-10865 Cache refreshed
+2026-07-10 13:25:27 DEBUG InventoryService       requestId=REQ-10866 Executing SQL query
+2026-07-10 01:29:03 DEBUG ShippingService        requestId=REQ-10867 Acquired DB connection
+2026-07-10 12:01:16 WARN  UserService            requestId=REQ-10868 Retrying failed request
+2026-07-10 02:09:15 INFO  ApiGateway             requestId=REQ-10869 Heartbeat received
+2026-07-10 03:04:09 DEBUG PaymentService         requestId=REQ-10870 Calling downstream service
+2026-07-10 18:42:11 INFO  UserService            requestId=REQ-10871 Session created
+2026-07-10 12:42:02 INFO  NotificationService    requestId=REQ-10872 Order created
+2026-07-10 01:59:50 WARN  InventoryService       requestId=REQ-10873 Disk usage above 80%
+2026-07-10 15:07:09 INFO  AuthService            requestId=REQ-10874 Payment authorized
+2026-07-10 06:46:19 INFO  AuthService            requestId=REQ-10875 Request completed successfully
+2026-07-10 06:51:44 INFO  ReportingService       requestId=REQ-10876 Payment authorized
+2026-07-10 09:32:38 DEBUG InventoryService       requestId=REQ-10877 Retry attempt=1
+2026-07-10 17:59:04 WARN  NotificationService    requestId=REQ-10878 High response time detected
+2026-07-10 22:17:46 INFO  InventoryService       requestId=REQ-10879 Order created
+2026-07-10 12:04:53 INFO  InventoryService       requestId=REQ-10880 Cache refreshed
+2026-07-10 00:26:00 INFO  ApiGateway             requestId=REQ-10881 Request completed successfully
+2026-07-10 23:06:13 INFO  NotificationService    requestId=REQ-10882 Order created
+2026-07-10 06:53:15 INFO  AuthService            requestId=REQ-10883 Email sent
+2026-07-10 18:50:22 ERROR OrderService           requestId=REQ-10884 Gateway timeout
+HTTP 504 Gateway Timeout
+2026-07-10 13:23:24 INFO  SearchService          requestId=REQ-10885 Cache refreshed
+2026-07-10 10:46:58 DEBUG InventoryService       requestId=REQ-10886 Retry attempt=1
+2026-07-10 14:56:45 INFO  SearchService          requestId=REQ-10887 User authenticated
+2026-07-10 22:36:04 INFO  ReportingService       requestId=REQ-10888 Heartbeat received
+2026-07-10 00:48:00 WARN  ShippingService        requestId=REQ-10889 Connection pool nearing capacity
+2026-07-10 03:01:49 ERROR PaymentService         requestId=REQ-10890 Downstream service unavailable
+java.net.ConnectException: Connection refused
+	at com.example.PaymentService.PaymentServiceImpl.process(PaymentServiceImpl.java:152)
+	at com.example.api.Controller.handle(Controller.java:62)
+2026-07-10 19:24:10 INFO  AuthService            requestId=REQ-10891 Heartbeat received
+2026-07-10 08:45:01 INFO  InventoryService       requestId=REQ-10892 User authenticated
+2026-07-10 04:00:21 INFO  ApiGateway             requestId=REQ-10893 Heartbeat received
+2026-07-10 04:13:05 DEBUG NotificationService    requestId=REQ-10894 Calling downstream service
+2026-07-10 05:01:18 INFO  PaymentService         requestId=REQ-10895 User authenticated
+2026-07-10 12:31:17 ERROR ReportingService       requestId=REQ-10896 Invalid JWT token
+HTTP 401 Unauthorized
+2026-07-10 04:46:30 DEBUG ShippingService        requestId=REQ-10897 Acquired DB connection
+2026-07-10 09:15:18 INFO  NotificationService    requestId=REQ-10898 Request completed successfully
+2026-07-10 17:56:07 DEBUG AuthService            requestId=REQ-10899 Acquired DB connection
+2026-07-10 21:53:51 INFO  NotificationService    requestId=REQ-10900 Session created
+2026-07-10 17:36:56 INFO  SearchService          requestId=REQ-10901 Session created
+2026-07-10 17:41:03 DEBUG ApiGateway             requestId=REQ-10902 Acquired DB connection
+2026-07-10 09:09:54 INFO  PaymentService         requestId=REQ-10903 Session created
+2026-07-10 09:02:57 DEBUG NotificationService    requestId=REQ-10904 Executing SQL query
+2026-07-10 05:32:49 ERROR SearchService          requestId=REQ-10905 Database connection unavailable
+java.sql.SQLTransientConnectionException: Connection is not available
+	at com.example.SearchService.SearchServiceImpl.process(SearchServiceImpl.java:75)
+	at com.example.api.Controller.handle(Controller.java:20)
+2026-07-10 14:18:53 INFO  ApiGateway             requestId=REQ-10906 Inventory synchronized
+2026-07-10 01:23:03 DEBUG InventoryService       requestId=REQ-10907 Retry attempt=1
+2026-07-10 15:19:16 INFO  SearchService          requestId=REQ-10908 User authenticated
+2026-07-10 06:07:47 ERROR InventoryService       requestId=REQ-10909 Database connection unavailable
+java.sql.SQLTransientConnectionException: Connection is not available
+	at com.example.InventoryService.InventoryServiceImpl.process(InventoryServiceImpl.java:43)
+	at com.example.api.Controller.handle(Controller.java:43)
+2026-07-10 07:40:00 ERROR PaymentService         requestId=REQ-10910 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.PaymentService.PaymentServiceImpl.process(PaymentServiceImpl.java:154)
+	at com.example.api.Controller.handle(Controller.java:77)
+2026-07-10 09:34:18 INFO  SearchService          requestId=REQ-10911 Heartbeat received
+2026-07-10 00:50:20 INFO  AuthService            requestId=REQ-10912 Email sent
+2026-07-10 01:29:21 INFO  ReportingService       requestId=REQ-10913 Session created
+2026-07-10 02:52:59 INFO  NotificationService    requestId=REQ-10914 Order created
+2026-07-10 09:24:05 ERROR PaymentService         requestId=REQ-10915 Payment API timeout
+java.net.SocketTimeoutException: Read timed out
+	at com.example.PaymentService.PaymentServiceImpl.process(PaymentServiceImpl.java:167)
+	at com.example.api.Controller.handle(Controller.java:48)
+2026-07-10 18:53:31 INFO  ApiGateway             requestId=REQ-10916 Order created
+2026-07-10 09:40:29 INFO  ReportingService       requestId=REQ-10917 Payment authorized
+2026-07-10 21:20:13 INFO  NotificationService    requestId=REQ-10918 Scheduled job completed
+2026-07-10 04:40:10 INFO  OrderService           requestId=REQ-10919 Order created
+2026-07-10 23:17:38 WARN  AuthService            requestId=REQ-10920 Slow database query detected
+2026-07-10 16:43:28 DEBUG NotificationService    requestId=REQ-10921 Building response payload
+2026-07-10 22:45:11 INFO  ApiGateway             requestId=REQ-10922 Scheduled job completed
+2026-07-10 19:56:10 INFO  OrderService           requestId=REQ-10923 Email sent
+2026-07-10 05:30:59 WARN  ReportingService       requestId=REQ-10924 Connection pool nearing capacity
+2026-07-10 08:40:26 DEBUG SearchService          requestId=REQ-10925 Serializing JSON
+2026-07-10 14:42:37 ERROR AuthService            requestId=REQ-10926 Invalid JWT token
+HTTP 401 Unauthorized
+2026-07-10 14:14:57 INFO  AuthService            requestId=REQ-10927 Order created
+2026-07-10 14:17:27 WARN  OrderService           requestId=REQ-10928 Connection pool nearing capacity
+2026-07-10 07:39:04 DEBUG ShippingService        requestId=REQ-10929 Executing SQL query
+2026-07-10 18:28:28 INFO  PaymentService         requestId=REQ-10930 Heartbeat received
+2026-07-10 18:00:43 INFO  PaymentService         requestId=REQ-10931 User authenticated
+2026-07-10 07:46:21 INFO  ShippingService        requestId=REQ-10932 Session created
+2026-07-10 14:17:54 INFO  ShippingService        requestId=REQ-10933 Order created
+2026-07-10 10:20:49 INFO  NotificationService    requestId=REQ-10934 Inventory synchronized
+2026-07-10 17:45:37 INFO  SearchService          requestId=REQ-10935 Session created
+2026-07-10 22:36:29 INFO  ApiGateway             requestId=REQ-10936 Cache refreshed
+2026-07-10 08:58:01 WARN  UserService            requestId=REQ-10937 Slow database query detected
+2026-07-10 10:02:58 INFO  UserService            requestId=REQ-10938 Cache refreshed
+2026-07-10 13:08:25 INFO  SearchService          requestId=REQ-10939 Payment authorized
+2026-07-10 10:14:58 INFO  SearchService          requestId=REQ-10940 Heartbeat received
+2026-07-10 08:07:08 DEBUG InventoryService       requestId=REQ-10941 Serializing JSON
+2026-07-10 03:21:42 WARN  NotificationService    requestId=REQ-10942 Disk usage above 80%
+2026-07-10 10:48:00 DEBUG NotificationService    requestId=REQ-10943 Executing SQL query
+2026-07-10 17:28:22 WARN  UserService            requestId=REQ-10944 Slow database query detected
+2026-07-10 21:31:40 INFO  ReportingService       requestId=REQ-10945 Payment authorized
+2026-07-10 02:48:48 DEBUG ShippingService        requestId=REQ-10946 Retry attempt=1
+2026-07-10 22:53:23 INFO  ApiGateway             requestId=REQ-10947 Order created
+2026-07-10 13:57:10 INFO  AuthService            requestId=REQ-10948 Inventory synchronized
+2026-07-10 10:49:43 ERROR ApiGateway             requestId=REQ-10949 Downstream service unavailable
+java.net.ConnectException: Connection refused
+	at com.example.ApiGateway.ApiGatewayImpl.process(ApiGatewayImpl.java:197)
+	at com.example.api.Controller.handle(Controller.java:27)
+2026-07-10 09:40:15 INFO  AuthService            requestId=REQ-10950 Order created
+2026-07-10 05:35:08 WARN  PaymentService         requestId=REQ-10951 Connection pool nearing capacity
+2026-07-10 12:11:12 INFO  SearchService          requestId=REQ-10952 Payment authorized
+2026-07-10 10:18:10 WARN  ReportingService       requestId=REQ-10953 Retrying failed request
+2026-07-10 02:26:40 INFO  UserService            requestId=REQ-10954 Heartbeat received
+2026-07-10 14:56:21 DEBUG ShippingService        requestId=REQ-10955 Building response payload
+2026-07-10 06:04:01 INFO  ApiGateway             requestId=REQ-10956 Heartbeat received
+2026-07-10 19:33:05 INFO  AuthService            requestId=REQ-10957 Email sent
+2026-07-10 06:46:28 INFO  InventoryService       requestId=REQ-10958 Request completed successfully
+2026-07-10 01:37:00 DEBUG OrderService           requestId=REQ-10959 Acquired DB connection
+2026-07-10 13:34:19 INFO  NotificationService    requestId=REQ-10960 Cache refreshed
+2026-07-10 10:36:29 INFO  ApiGateway             requestId=REQ-10961 Payment authorized
+2026-07-10 09:39:33 WARN  ShippingService        requestId=REQ-10962 Cache miss ratio exceeded threshold
+2026-07-10 13:01:38 INFO  InventoryService       requestId=REQ-10963 Email sent
+2026-07-10 08:37:42 INFO  ApiGateway             requestId=REQ-10964 Heartbeat received
+2026-07-10 12:24:54 INFO  ApiGateway             requestId=REQ-10965 Heartbeat received
+2026-07-10 11:53:43 INFO  ReportingService       requestId=REQ-10966 Order created
+2026-07-10 14:09:52 DEBUG PaymentService         requestId=REQ-10967 Cache lookup
+2026-07-10 20:21:36 INFO  ShippingService        requestId=REQ-10968 Heartbeat received
+2026-07-10 19:58:20 INFO  NotificationService    requestId=REQ-10969 Inventory synchronized
+2026-07-10 17:14:27 INFO  ReportingService       requestId=REQ-10970 Session created
+2026-07-10 05:09:18 INFO  AuthService            requestId=REQ-10971 Heartbeat received
+2026-07-10 01:53:56 INFO  UserService            requestId=REQ-10972 User authenticated
+2026-07-10 06:07:01 DEBUG UserService            requestId=REQ-10973 Serializing JSON
+2026-07-10 04:11:44 INFO  ShippingService        requestId=REQ-10974 Order created
+2026-07-10 15:30:23 INFO  InventoryService       requestId=REQ-10975 Inventory synchronized
+2026-07-10 10:00:16 WARN  NotificationService    requestId=REQ-10976 Disk usage above 80%
+2026-07-10 18:03:04 ERROR SearchService          requestId=REQ-10977 Database connection unavailable
+java.sql.SQLTransientConnectionException: Connection is not available
+	at com.example.SearchService.SearchServiceImpl.process(SearchServiceImpl.java:75)
+	at com.example.api.Controller.handle(Controller.java:57)
+2026-07-10 06:00:44 ERROR ReportingService       requestId=REQ-10978 Invalid JWT token
+HTTP 401 Unauthorized
+2026-07-10 18:08:03 ERROR PaymentService         requestId=REQ-10979 Invalid JWT token
+HTTP 401 Unauthorized
+2026-07-10 20:12:43 WARN  AuthService            requestId=REQ-10980 Cache miss ratio exceeded threshold
+2026-07-10 15:33:54 INFO  AuthService            requestId=REQ-10981 Cache refreshed
+2026-07-10 13:45:37 INFO  ShippingService        requestId=REQ-10982 Session created
+2026-07-10 11:54:12 INFO  AuthService            requestId=REQ-10983 Heartbeat received
+2026-07-10 02:46:54 INFO  ApiGateway             requestId=REQ-10984 User authenticated
+2026-07-10 03:20:53 INFO  PaymentService         requestId=REQ-10985 Inventory synchronized
+2026-07-10 06:22:48 INFO  OrderService           requestId=REQ-10986 Session created
+2026-07-10 07:22:05 FATAL AuthService            requestId=REQ-10987 Primary database unreachable
+FATAL Database unavailable
+Application terminating.
+2026-07-10 04:55:10 WARN  PaymentService         requestId=REQ-10988 Retrying failed request
+2026-07-10 01:46:55 INFO  PaymentService         requestId=REQ-10989 Email sent
+2026-07-10 08:11:56 WARN  ReportingService       requestId=REQ-10990 Connection pool nearing capacity
+2026-07-10 21:58:10 DEBUG InventoryService       requestId=REQ-10991 Acquired DB connection
+2026-07-10 20:19:53 INFO  UserService            requestId=REQ-10992 Scheduled job completed
+2026-07-10 03:10:00 INFO  PaymentService         requestId=REQ-10993 Heartbeat received
+2026-07-10 03:37:58 INFO  ShippingService        requestId=REQ-10994 User authenticated
+2026-07-10 06:29:23 INFO  PaymentService         requestId=REQ-10995 Heartbeat received
+2026-07-10 17:43:39 FATAL UserService            requestId=REQ-10996 Application shutting down
+java.lang.OutOfMemoryError: Java heap space
+Application terminating.
+2026-07-10 11:55:54 DEBUG ApiGateway             requestId=REQ-10997 Executing SQL query
+2026-07-10 08:51:46 INFO  ApiGateway             requestId=REQ-10998 Scheduled job completed
+2026-07-10 22:52:18 WARN  UserService            requestId=REQ-10999 High response time detected

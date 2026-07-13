@@ -1,0 +1,45 @@
+Status Code count: 
+Response Code: FATAL, Count: 7
+Response Code: WARN, Count: 139
+Response Code: INFO, Count: 599
+Response Code: ERROR, Count: 75
+Response Code: DEBUG, Count: 180
+
+
+Unique Error Codes: 
+java.net.ConnectException: Connection refused: 11
+java.sql.SQLTransientConnectionException: Connection is not available: 13
+java.io.IOException: Broken pipe: 10
+FATAL Database unavailable: 3
+java.lang.OutOfMemoryError: Java heap space: 4
+HTTP 401 Unauthorized: 7
+HTTP 504 Gateway Timeout: 9
+java.lang.NullPointerException: 11
+java.net.SocketTimeoutException: Read timed out: 14
+
+
+Null Pointer Exceptions: 
+ReportingServiceImpl.java:204
+InventoryServiceImpl.java:214
+AuthServiceImpl.java:137
+ReportingServiceImpl.java:196
+AuthServiceImpl.java:215
+OrderServiceImpl.java:146
+ReportingServiceImpl.java:160
+ShippingServiceImpl.java:55
+UserServiceImpl.java:152
+PaymentServiceImpl.java:178
+ReportingServiceImpl.java:173
+
+
+IO Exceptions: 
+AuthServiceImpl.java:211
+SearchServiceImpl.java:142
+AuthServiceImpl.java:205
+SearchServiceImpl.java:46
+ApiGatewayImpl.java:52
+ShippingServiceImpl.java:107
+InventoryServiceImpl.java:49
+ApiGatewayImpl.java:183
+AuthServiceImpl.java:58
+ShippingServiceImpl.java:188
